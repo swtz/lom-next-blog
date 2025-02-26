@@ -8,9 +8,8 @@ export type MenuLinkProps = {
 };
 
 export const MenuLink = ({ children, link, newTab = false }: MenuLinkProps) => {
-  const target = newTab ? '_blank' : '_self';
-
   const nextLink = link.match(/^\//) ? true : false;
+  const target = newTab ? '_blank' : '_self';
 
   if (nextLink) {
     return (
