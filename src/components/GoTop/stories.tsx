@@ -8,7 +8,7 @@ export default {
 
 export const Template: StoryFn = () => {
   return (
-    <div style={{ height: '400vh' }}>
+    <div style={{ height: '300vh' }}>
       <h1>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae
         labore dicta at minima accusamus, velit ut rem sunt atque modi amet
