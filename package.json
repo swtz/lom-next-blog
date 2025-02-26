@@ -1,6 +1,5 @@
 {
-  "name": "lom-next13-typescript",
-  "version": "0.1.0",
+  "name": "lom-next-blog",
   "private": true,
   "scripts": {
     "dev": "next dev",
