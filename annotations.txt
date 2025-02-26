@@ -1,0 +1,8 @@
+Curso:
+Aprenda ReactJS, NextJS, Styled-Components, Testes com Jest , Storybook, Strapi, HTML e CSS com TypeScript e JavaScript.
+
+Seção:
+Seção 15: Projeto 2: Blog - Front-end com Next.js (e React)
+
+Aula:
+240. Salve os dados do seu GraphQL para facilitar sua vida
