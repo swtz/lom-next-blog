@@ -34,6 +34,25 @@ describe('<LogoLink />', () => {
     );
   });
 
+  it('should render newTab prop with default value', () => {
+    renderTheme(
+      <LogoLink link="/target" text="Hello, world!" srcImg="image.jpg" />,
+    );
+    expect(screen.getByRole('link')).toHaveAttribute('target', '_self');
+  });
+
+  it('should render newTab prop with _blank value', () => {
+    renderTheme(
+      <LogoLink
+        link="/target"
+        text="Hello, world!"
+        srcImg="image.jpg"
+        newTab
+      />,
+    );
+    expect(screen.getByRole('link')).toHaveAttribute('target', '_blank');
+  });
+
   it('should render internal link with text only', () => {
     renderTheme(<LogoLink link="/target" text="Hello, world!" />);
     expect(

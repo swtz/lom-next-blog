@@ -18,7 +18,9 @@ exports[`<LogoLink /> should match snapshot 1`] = `
 }
 
 .c1 > img {
-  max-height: 3rem;
+  width: 15rem;
+  height: 15rem;
+  border-radius: 50%;
 }
 
 .c0 {
@@ -33,6 +35,7 @@ exports[`<LogoLink /> should match snapshot 1`] = `
   <a
     class="c1"
     href="#target"
+    target="_self"
   >
     <img
       alt="Hello, world!"

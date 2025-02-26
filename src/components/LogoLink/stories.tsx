@@ -7,8 +7,9 @@ export default {
   component: LogoLink,
   args: {
     text: 'Hello, LogoLink!',
-    srcImg: 'assets/images/logo-github.svg',
-    link: 'http://localhost',
+    srcImg: 'assets/images/logo.svg',
+    link: 'https://www.jw.org',
+    newTab: false,
   },
 } as Meta;
 
@@ -26,4 +27,5 @@ export const TextOnly: StoryFn<LogoLinkProps> = (args) => (
 
 TextOnly.args = {
   srcImg: '',
+  newTab: true,
 };

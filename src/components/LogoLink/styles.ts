@@ -9,7 +9,9 @@ export const Container = styled.a`
     text-decoration: none;
 
     > img {
-      max-height: 3rem;
+      width: 15rem;
+      height: 15rem;
+      border-radius: 50%;
     }
   `};
 `;
