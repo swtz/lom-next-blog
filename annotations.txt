@@ -5,4 +5,4 @@ Seção:
 Seção 15: Projeto 2: Blog - Front-end com Next.js (e React)
 
 Aula:
-242. Reutilizando componentes - Heading
+243. Reutilizando componentes: Footer, GoToTop e LogoLink
