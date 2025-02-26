@@ -20,7 +20,7 @@ describe('<Heading />', () => {
     const { container } = renderTheme(<Heading>texto</Heading>);
     expect(container.firstChild).toMatchInlineSnapshot(`
       .c0 {
-        color: #0A1128;
+        color: #000000;
         font-size: 6.4rem;
         text-transform: none;
       }
