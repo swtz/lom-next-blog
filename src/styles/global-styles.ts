@@ -25,7 +25,7 @@ export const GlobalStyles = createGlobalStyle`
     margin: ${({ theme }) => theme.spacings.large} 0;
   }
 
-  p {
+  /* p {
     margin: ${({ theme }) => theme.spacings.medium} 0;
   }
 
@@ -36,5 +36,5 @@ export const GlobalStyles = createGlobalStyle`
 
   a {
     color: ${({ theme }) => theme.colors.secondary};
-  }
+  } */
 `;

@@ -11,7 +11,7 @@ export default {
 } as Meta;
 
 export const Template: StoryFn<HtmlContentProps> = (args) => (
-  <div>
+  <div style={{ maxWidth: '800px', margin: '0 auto' }}>
     <HtmlContent {...args} />
   </div>
 );
