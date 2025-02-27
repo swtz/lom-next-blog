@@ -5,4 +5,4 @@ Seção:
 Seção 15: Projeto 2: Blog - Front-end com Next.js (e React)
 
 Aula:
-245. Reutilizando componentes - TextComponent
+246. CSS do HtmlContent com Styled-Components
