@@ -19,5 +19,24 @@ export const Container = styled.div`
     a:hover {
       filter: brightness(50%);
     }
+
+    pre {
+      background: ${theme.colors.primary};
+      padding: ${theme.spacings.medium};
+      font-family: monospace;
+      color: ${theme.colors.white};
+      margin: ${theme.spacings.xlarge} 0;
+      font-size: ${theme.font.sizes.xsmall};
+      width: 100%;
+      overflow-x: auto;
+    }
+
+    @media ${theme.media.lteMedium} {
+      font-size: 2rem;
+
+      pre {
+        font-size: 1.2rem;
+      }
+    }
   `};
 `;

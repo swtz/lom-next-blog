@@ -26,6 +26,46 @@ describe('<Footer />', () => {
         font-size: 2.4rem;
       }
 
+      .c1 p {
+        margin: 4.0rem 0;
+      }
+
+      .c1 a,
+      .c1 a:visited,
+      .c1 a:link {
+        color: #DC143C;
+        -webkit-text-decoration: none;
+        text-decoration: none;
+        -webkit-transition: all 300ms ease-in-out;
+        transition: all 300ms ease-in-out;
+      }
+
+      .c1 a:hover {
+        -webkit-filter: brightness(50%);
+        filter: brightness(50%);
+      }
+
+      .c1 pre {
+        background: #000000;
+        padding: 2.4rem;
+        font-family: monospace;
+        color: #FFFFFF;
+        margin: 4.0rem 0;
+        font-size: 1.6rem;
+        width: 100%;
+        overflow-x: auto;
+      }
+
+      @media (max-width:768px) {
+        .c1 {
+          font-size: 2rem;
+        }
+
+        .c1 pre {
+          font-size: 1.2rem;
+        }
+      }
+
       <div>
         <footer
           class="c0"
