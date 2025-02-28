@@ -55,6 +55,33 @@ export const Container = styled.div`
       margin: ${theme.spacings.medium};
     }
 
+    hr {
+      border: none;
+      border-bottom: 0.1rem solid ${theme.colors.mediumGray};
+    }
+
+    ul,
+    ol {
+      margin: ${theme.spacings.xlarge};
+    }
+
+    .table {
+      width: 100%;
+      overflow: hidden;
+      overflow-x: auto;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+
+    table td,
+    table th {
+      padding: ${theme.spacings.small};
+      border: 0.1rem solid ${theme.colors.mediumGray};
+    }
+
     @media ${theme.media.lteMedium} {
       font-size: 2rem;
 
