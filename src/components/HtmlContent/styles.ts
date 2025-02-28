@@ -31,11 +31,41 @@ export const Container = styled.div`
       overflow-x: auto;
     }
 
+    img {
+      max-width: 100%;
+    }
+
+    .image {
+      background: ${theme.colors.mediumGray};
+      line-height: 0;
+      margin: ${theme.spacings.xlarge} 0;
+    }
+
+    .image figcaption {
+      background: ${theme.colors.mediumGray};
+      font-size: ${theme.font.sizes.xsmall};
+      padding: ${theme.spacings.small};
+      text-align: center;
+      line-height: 1.3;
+    }
+
+    .image-style-side {
+      float: right;
+      max-width: 50%;
+      margin: ${theme.spacings.medium};
+    }
+
     @media ${theme.media.lteMedium} {
       font-size: 2rem;
 
       pre {
         font-size: 1.2rem;
+      }
+
+      .image-style-side {
+        float: none;
+        max-width: 100%;
+        margin: ${theme.spacings.xlarge} 0;
       }
     }
   `};

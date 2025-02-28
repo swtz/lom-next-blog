@@ -6,3 +6,9 @@ Seção 15: Projeto 2: Blog - Front-end com Next.js (e React)
 
 Aula:
 246. CSS do HtmlContent com Styled-Components
+
+// O plugin utilizado para criação do conteúdo do blog
+// (CKEditor 5) cria algumas 'tags' html e suas respectivas
+// classes. Por isso, é importante inspecionar o html gerado
+// por ele para que isso não impacte de modo negativo ao
+// estilizar o componente responsável por exibir esse conteúdo.
