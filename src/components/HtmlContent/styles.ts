@@ -82,6 +82,12 @@ export const Container = styled.div`
       border: 0.1rem solid ${theme.colors.mediumGray};
     }
 
+    .media iframe {
+      width: 100%;
+      height: auto;
+      aspect-ratio: 16 / 9;
+    }
+
     @media ${theme.media.lteMedium} {
       font-size: 2rem;
 
