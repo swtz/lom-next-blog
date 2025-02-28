@@ -56,6 +56,63 @@ describe('<Footer />', () => {
         overflow-x: auto;
       }
 
+      .c1 img {
+        max-width: 100%;
+      }
+
+      .c1 .image {
+        background: #DDDDDD;
+        line-height: 0;
+        margin: 4.0rem 0;
+      }
+
+      .c1 .image figcaption {
+        background: #DDDDDD;
+        font-size: 1.6rem;
+        padding: 1.6rem;
+        text-align: center;
+        line-height: 1.3;
+      }
+
+      .c1 .image-style-side {
+        float: right;
+        max-width: 50%;
+        margin: 2.4rem;
+      }
+
+      .c1 hr {
+        border: none;
+        border-bottom: 0.1rem solid #DDDDDD;
+      }
+
+      .c1 ul,
+      .c1 ol {
+        margin: 4.0rem;
+      }
+
+      .c1 .table {
+        width: 100%;
+        overflow: hidden;
+        overflow-x: auto;
+      }
+
+      .c1 table {
+        width: 100%;
+        border-collapse: collapse;
+      }
+
+      .c1 table td,
+      .c1 table th {
+        padding: 1.6rem;
+        border: 0.1rem solid #DDDDDD;
+      }
+
+      .c1 .media iframe {
+        width: 100%;
+        height: auto;
+        aspect-ratio: 16 / 9;
+      }
+
       @media (max-width:768px) {
         .c1 {
           font-size: 2rem;
@@ -63,6 +120,12 @@ describe('<Footer />', () => {
 
         .c1 pre {
           font-size: 1.2rem;
+        }
+
+        .c1 .image-style-side {
+          float: none;
+          max-width: 100%;
+          margin: 4.0rem 0;
         }
       }
 

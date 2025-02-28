@@ -46,6 +46,63 @@ describe('<HtmlContent />', () => {
         overflow-x: auto;
       }
 
+      .c0 img {
+        max-width: 100%;
+      }
+
+      .c0 .image {
+        background: #DDDDDD;
+        line-height: 0;
+        margin: 4.0rem 0;
+      }
+
+      .c0 .image figcaption {
+        background: #DDDDDD;
+        font-size: 1.6rem;
+        padding: 1.6rem;
+        text-align: center;
+        line-height: 1.3;
+      }
+
+      .c0 .image-style-side {
+        float: right;
+        max-width: 50%;
+        margin: 2.4rem;
+      }
+
+      .c0 hr {
+        border: none;
+        border-bottom: 0.1rem solid #DDDDDD;
+      }
+
+      .c0 ul,
+      .c0 ol {
+        margin: 4.0rem;
+      }
+
+      .c0 .table {
+        width: 100%;
+        overflow: hidden;
+        overflow-x: auto;
+      }
+
+      .c0 table {
+        width: 100%;
+        border-collapse: collapse;
+      }
+
+      .c0 table td,
+      .c0 table th {
+        padding: 1.6rem;
+        border: 0.1rem solid #DDDDDD;
+      }
+
+      .c0 .media iframe {
+        width: 100%;
+        height: auto;
+        aspect-ratio: 16 / 9;
+      }
+
       @media (max-width:768px) {
         .c0 {
           font-size: 2rem;
@@ -53,6 +110,12 @@ describe('<HtmlContent />', () => {
 
         .c0 pre {
           font-size: 1.2rem;
+        }
+
+        .c0 .image-style-side {
+          float: none;
+          max-width: 100%;
+          margin: 4.0rem 0;
         }
       }
 
