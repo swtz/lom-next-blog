@@ -4,7 +4,13 @@ import { Header } from '.';
 
 describe('<Header />', () => {
   it('should render', () => {
-    renderTheme(<Header>Olá, mundo!</Header>);
+    renderTheme(
+      <Header
+        blogName="Olá, mundo!"
+        blogDescription="A short description"
+        logo="a.svg"
+      />,
+    );
 
     expect(
       screen.getByRole('heading', { name: 'Olá, mundo!' }),

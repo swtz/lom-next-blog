@@ -5,7 +5,9 @@ export default {
   title: 'Header',
   component: Header,
   args: {
-    children: 'Olá, mundo!',
+    blogName: 'Olá, mundo!',
+    blogDescription: 'A short description',
+    logo: '/assets/images/logo.svg',
   },
 } as Meta;
 
