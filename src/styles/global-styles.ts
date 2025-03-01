@@ -24,17 +24,4 @@ export const GlobalStyles = createGlobalStyle`
     color: ${({ theme }) => theme.colors.primary};
     margin: ${({ theme }) => theme.spacings.large} 0;
   }
-
-  /* p {
-    margin: ${({ theme }) => theme.spacings.medium} 0;
-  }
-
-  ul, ol {
-    margin: ${({ theme }) => theme.spacings.medium};
-    padding: ${({ theme }) => theme.spacings.medium};
-  }
-
-  a {
-    color: ${({ theme }) => theme.colors.secondary};
-  } */
 `;

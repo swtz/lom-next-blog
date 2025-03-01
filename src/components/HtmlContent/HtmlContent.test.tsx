@@ -59,7 +59,7 @@ describe('<HtmlContent />', () => {
       .c0 .image figcaption {
         background: #DDDDDD;
         font-size: 1.6rem;
-        padding: 1.6rem;
+        padding: .8rem;
         text-align: center;
         line-height: 1.3;
       }
@@ -93,7 +93,7 @@ describe('<HtmlContent />', () => {
 
       .c0 table td,
       .c0 table th {
-        padding: 1.6rem;
+        padding: .8rem;
         border: 0.1rem solid #DDDDDD;
       }
 

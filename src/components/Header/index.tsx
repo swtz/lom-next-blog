@@ -1,4 +1,5 @@
 import { Heading } from '../Heading';
+import { LogoLink } from '../LogoLink';
 import * as Styled from './styles';
 
 export type HeaderProps = {
@@ -15,14 +16,20 @@ export const Header = ({
   showText = true,
 }: HeaderProps) => {
   return (
-    <Styled.Container>
-      <Styled.Image src={logo} alt={blogName} />
-      <Styled.TextWrapper showText={showText}>
-        <Heading as="h3" size="medium">
-          {blogName}
-        </Heading>
-        <Styled.Text>{blogDescription}</Styled.Text>
-      </Styled.TextWrapper>
-    </Styled.Container>
+    <Styled.Wrapper>
+      <LogoLink
+        link="/"
+        srcImg={logo}
+        text={`${blogName} - ${blogDescription}`}
+      />
+      {showText && (
+        <Styled.Content>
+          <Heading as="h2" size="small">
+            {blogName}
+          </Heading>
+          <p>{blogDescription}</p>
+        </Styled.Content>
+      )}
+    </Styled.Wrapper>
   );
 };

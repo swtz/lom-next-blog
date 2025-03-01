@@ -41,7 +41,7 @@ describe('<MenuLink />', () => {
         color: #FFFFFF;
         -webkit-text-decoration: none;
         text-decoration: none;
-        margin-bottom: 1.6rem;
+        margin-bottom: .8rem;
         font-size: 1.8rem;
         border-right: 0.5rem solid #000000;
         -webkit-transition: all 300ms ease-in-out;

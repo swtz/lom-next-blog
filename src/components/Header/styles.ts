@@ -1,38 +1,40 @@
 import styled, { css } from 'styled-components';
-import { HeaderProps } from '.';
+import { Title as HeadingStyles } from '../Heading/styles';
 
-const show = () => css`
-  visibility: 1;
-  opacity: 1;
-`;
-
-export const Container = styled.header`
+export const Wrapper = styled.header`
   ${({ theme }) => css`
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: ${theme.spacings.large};
-  `}
-`;
-
-export const TextWrapper = styled.div<Pick<HeaderProps, 'showText'>>`
-  visibility: 0;
-  opacity: 0;
-
-  ${({ showText }) => css`
-    ${showText ? show() : null}
-  `}
-`;
-
-export const Text = styled.p``;
-
-export const ImageWrapper = styled.div`
-  display: flex;
-`;
-
-export const Image = styled.img`
-  ${() => css`
+    padding: ${theme.spacings.xhuge};
     width: 100%;
-    max-width: 12rem;
+    max-width: ${theme.sizes.max};
+    color: ${theme.colors.darkText};
+    font-size: ${theme.font.sizes.xsmall};
+    margin: 0 auto;
+
+    ${HeadingStyles} {
+      margin: 0 0 calc(${theme.spacings.xsmall} - 1rem);
+    }
+
+    @media ${theme.media.lteXSmall} {
+      flex-flow: column wrap;
+
+      > div {
+        ${HeadingStyles} {
+          margin: ${theme.spacings.xsmall} 0
+            calc(${theme.spacings.small} - 1rem);
+        }
+      }
+    }
+  `}
+`;
+
+export const Content = styled.div`
+  ${({ theme }) => css`
+    display: flex;
+    flex-flow: column wrap;
+    margin-left: ${theme.spacings.large};
+    max-width: 48rem;
   `}
 `;
