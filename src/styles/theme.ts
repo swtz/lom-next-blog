@@ -5,6 +5,7 @@ export const theme = {
     secondary: '#DC143C',
     white: '#FFFFFF',
     mediumGray: '#DDDDDD',
+    darkerGray: '#AAAAAA',
   },
   font: {
     family: {
