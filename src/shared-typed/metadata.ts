@@ -2,12 +2,12 @@ export type Metadata = {
   data: Data[];
 };
 
-type Data = {
-  id?: string;
+export type Data = {
+  id: string;
   attributes: Atributes;
 };
 
-type Atributes = {
+export type Atributes = {
   displayName: string;
   slug: string;
 };

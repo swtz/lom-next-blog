@@ -1,3 +1,3 @@
-import { Metadata } from './metadata';
+import { AuthorData } from './authordata';
 
-export type Author = Metadata;
+export type Author = AuthorData;

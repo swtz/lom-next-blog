@@ -4,28 +4,28 @@ export default {
   createdAt: '2025-02-12T11:41:13.991Z', // value from current Strapi API
   author: {
     data: {
-      id: '123456789',
-    },
-    attributes: {
-      slug: 'otavio-miranda',
-      displayName: 'Otávio Miranda',
+      id: '1',
+      attributes: {
+        displayName: 'surfista',
+        slug: 'surfista',
+      },
     },
   },
 
   categories: {
     data: [
       {
-        id: 'asdslgyh65',
+        id: '4',
         attributes: {
-          displayName: 'Tech',
-          slug: 'tech',
+          displayName: 'Off Topic',
+          slug: 'off-topic',
         },
       },
       {
-        id: 'asdslgyh66',
+        id: '1',
         attributes: {
-          displayName: 'JS',
-          slug: 'javascript',
+          displayName: 'tech',
+          slug: 'tech',
         },
       },
     ],

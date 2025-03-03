@@ -6,6 +6,23 @@ export default {
   title: 'ArticleMeta',
   component: ArticleMeta,
   args: mock,
+  argTypes: {
+    createdAt: {
+      control: {
+        type: 'date',
+      },
+    },
+    author: {
+      control: {
+        type: null,
+      },
+    },
+    categories: {
+      control: {
+        type: null,
+      },
+    },
+  },
 } as Meta<ArticleMetaProps>;
 
 export const Template: StoryFn<ArticleMetaProps> = (args) => {
