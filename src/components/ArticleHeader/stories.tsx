@@ -23,8 +23,11 @@ export default {
 
 export const Template: StoryFn<ArticleHeaderProps> = (args) => {
   return (
-    <div>
-      <ArticleHeader {...args} />
-    </div>
+    <>
+      <div>
+        <ArticleHeader {...args} />
+      </div>
+      <p>Aqui se inicia o conteúdo do post</p>
+    </>
   );
 };

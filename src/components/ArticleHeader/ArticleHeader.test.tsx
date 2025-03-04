@@ -9,7 +9,7 @@ describe('<ArticleHeader />', () => {
     renderTheme(<ArticleHeader {...mock} />);
 
     expect(
-      screen.getByRole('heading', { name: 'Hello, rice!' }),
+      screen.getByRole('heading', { name: `${mock.title}` }),
     ).toBeInTheDocument();
   });
 });

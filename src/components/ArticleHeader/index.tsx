@@ -31,6 +31,7 @@ export const ArticleHeader = ({
         }
       />
       <ArticleMeta {...metadata} />
+      <hr />
     </Styled.Wrapper>
   );
 };

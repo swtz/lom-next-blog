@@ -34,12 +34,12 @@ const metadata = {
 } as ArticleMetaProps;
 
 export default {
-  title: 'Hello, rice!',
+  title: 'Hello, rice! With rice is possible make a several delicious dishes',
   description: `Rice is a cereal grain and in its domesticated form is the staple food of over half of the world's population, particularly in Asia and Africa. Rice is the seed of the grass species Oryza sativa (Asian rice).`,
   image: {
     data: {
       attributes: {
-        url: '/assets/images/stages-of-rice-milling.jpeg',
+        url: '/assets/images/arroz-branco-saudavel.webp',
         alternativeText: null,
       },
     },
