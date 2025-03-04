@@ -1,0 +1,131 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ArticleHeader /> should match snapshot 1`] = `
+.c3 {
+  font-size: 1.6rem;
+  color: #AAAAAA;
+  font-style: italic;
+}
+
+.c3 .categories span::after {
+  content: ', ';
+}
+
+.c3 .categories span:last-child:after {
+  content: '';
+}
+
+.c3 a {
+  color: #DC143C;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  -webkit-transition: all 300ms ease-in-out;
+  transition: all 300ms ease-in-out;
+}
+
+.c3 a:hover {
+  -webkit-filter: brightness(50%);
+  filter: brightness(50%);
+}
+
+.c2 {
+  color: #000000;
+  font-size: 4.0rem;
+  text-transform: none;
+}
+
+.c0 {
+  width: 100%;
+  max-width: 96rem;
+  margin: 0 auto;
+}
+
+.c0 .c1 {
+  margin: calc(1.6rem - 1rem) 0;
+}
+
+.c0 p {
+  margin: 1.6rem 0;
+}
+
+.c0 img {
+  width: 100%;
+  height: auto;
+}
+
+.c0 hr {
+  border: 1px solid #DDDDDD;
+  margin: 3.2rem 0;
+}
+
+@media (max-width:768px) {
+  .c0 .c1 {
+    font-size: 3.2rem;
+  }
+}
+
+<div
+  class="c0"
+>
+  <h2
+    class="c1 c2"
+  >
+    Hello, rice! With rice is possible make a several delicious dishes
+  </h2>
+  <p>
+    Rice is a cereal grain and in its domesticated form is the staple food of over half of the world's population, particularly in Asia and Africa. Rice is the seed of the grass species Oryza sativa (Asian rice).
+  </p>
+  <img
+    alt="Rice is a cereal grain and in its domesticated form is the staple food of over half of the world's population, particularly in Asia and Africa. Rice is the seed of the grass species Oryza sativa (Asian rice)."
+    src="/assets/images/arroz-branco-saudavel.webp"
+  />
+  <div
+    class="c3"
+  >
+    <p>
+      <span>
+        Por 
+      </span>
+      <a
+        href="/author/surfista"
+      >
+        surfista
+      </a>
+      <span
+        class="separator"
+      >
+         | 
+      </span>
+      <time
+        datetime="2025-02-12T11:41:13.991Z"
+      >
+        12 de fev. de 2025
+      </time>
+      <span
+        class="separator"
+      >
+         | 
+      </span>
+      <span
+        class="categories"
+      >
+        <span>
+          <a
+            href="/category/off-topic"
+          >
+            Off Topic
+          </a>
+        </span>
+        <span>
+          <a
+            href="/category/tech"
+          >
+            tech
+          </a>
+        </span>
+      </span>
+    </p>
+  </div>
+  <hr />
+</div>
+`;
