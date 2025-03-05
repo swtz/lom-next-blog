@@ -1,21 +1,21 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`<ArticleHeader /> should match snapshot 1`] = `
-.c3 {
+.c5 {
   font-size: 1.6rem;
   color: #AAAAAA;
   font-style: italic;
 }
 
-.c3 .categories span::after {
+.c5 .categories span::after {
   content: ', ';
 }
 
-.c3 .categories span:last-child:after {
+.c5 .categories span:last-child:after {
   content: '';
 }
 
-.c3 a {
+.c5 a {
   color: #DC143C;
   -webkit-text-decoration: none;
   text-decoration: none;
@@ -23,7 +23,7 @@ exports[`<ArticleHeader /> should match snapshot 1`] = `
   transition: all 300ms ease-in-out;
 }
 
-.c3 a:hover {
+.c5 a:hover {
   -webkit-filter: brightness(50%);
   filter: brightness(50%);
 }
@@ -35,27 +35,24 @@ exports[`<ArticleHeader /> should match snapshot 1`] = `
 }
 
 .c0 {
-  width: 100%;
-  max-width: 96rem;
-  margin: 0 auto;
+  padding-bottom: 4.0rem;
+  margin-bottom: 4.0rem;
+  border-bottom: 0.1rem solid #DDDDDD;
 }
 
 .c0 .c1 {
-  margin: calc(1.6rem - 1rem) 0;
+  margin: 0;
+  margin-bottom: 2.4rem;
 }
 
-.c0 p {
-  margin: 1.6rem 0;
+.c3 {
+  margin: 2.4rem 0;
 }
 
-.c0 img {
-  width: 100%;
-  height: auto;
-}
-
-.c0 hr {
-  border: 1px solid #DDDDDD;
-  margin: 3.2rem 0;
+.c4 {
+  max-width: 100%;
+  display: block;
+  margin-bottom: 2.4rem;
 }
 
 @media (max-width:768px) {
@@ -64,7 +61,7 @@ exports[`<ArticleHeader /> should match snapshot 1`] = `
   }
 }
 
-<div
+<header
   class="c0"
 >
   <h2
@@ -72,15 +69,18 @@ exports[`<ArticleHeader /> should match snapshot 1`] = `
   >
     Hello, rice! With rice is possible make a several delicious dishes
   </h2>
-  <p>
+  <p
+    class="c3"
+  >
     Rice is a cereal grain and in its domesticated form is the staple food of over half of the world's population, particularly in Asia and Africa. Rice is the seed of the grass species Oryza sativa (Asian rice).
   </p>
   <img
     alt="Rice is a cereal grain and in its domesticated form is the staple food of over half of the world's population, particularly in Asia and Africa. Rice is the seed of the grass species Oryza sativa (Asian rice)."
+    class="c4"
     src="/assets/images/arroz-branco-saudavel.webp"
   />
   <div
-    class="c3"
+    class="c5"
   >
     <p>
       <span>
@@ -126,6 +126,5 @@ exports[`<ArticleHeader /> should match snapshot 1`] = `
       </span>
     </p>
   </div>
-  <hr />
-</div>
+</header>
 `;

@@ -4,16 +4,16 @@ import { Heading } from '../Heading';
 import * as Styled from './styles';
 
 export type ArticleHeaderProps = {
-  title: React.ReactNode;
-  description: string;
-  image: Cover;
+  title: string;
+  excerpt: string;
+  cover: Cover;
   metadata: ArticleMetaProps;
 };
 
 export const ArticleHeader = ({
   title,
-  description,
-  image,
+  excerpt,
+  cover,
   metadata,
 }: ArticleHeaderProps) => {
   return (
@@ -21,17 +21,16 @@ export const ArticleHeader = ({
       <Heading as="h2" size="big">
         {title}
       </Heading>
-      <p>{description}</p>
-      <img
-        src={image.data.attributes.url}
+      <Styled.Excerpt>{excerpt}</Styled.Excerpt>
+      <Styled.Cover
+        src={cover.data.attributes.url}
         alt={
-          image.data.attributes.alternativeText
-            ? image.data.attributes.alternativeText
-            : description
+          cover.data.attributes.alternativeText
+            ? cover.data.attributes.alternativeText
+            : excerpt
         }
-      />
+      ></Styled.Cover>
       <ArticleMeta {...metadata} />
-      <hr />
     </Styled.Wrapper>
   );
 };

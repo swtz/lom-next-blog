@@ -43,6 +43,7 @@
             },
             "cover": {
               "data": {
+                "id": 1,
                 "attributes": {
                   "url": "https://pub-aea127bc483c40dea7b9339692296909.r2.dev/stages_of_rice_milling_8cb950424c.jpeg",
                   "alternativeText": null
@@ -106,6 +107,7 @@
             },
             "cover": {
               "data": {
+                "id": 1,
                 "attributes": {
                   "url": "https://pub-aea127bc483c40dea7b9339692296909.r2.dev/DALL_E_2024_10_26_12_58_20_A_modern_logo_design_for_Deck_da_Praia_Conveniencia_featuring_a_fox_mascot_representing_cold_beer_delivery_The_fox_should_appear_in_motion_with_sp_fd834176b6.webp",
                   "alternativeText": null

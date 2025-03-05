@@ -1,36 +1,33 @@
 import styled, { css } from 'styled-components';
 import { Title as HeadingStyles } from '../Heading/styles';
 
-export const Wrapper = styled.div`
+export const Wrapper = styled.header`
   ${({ theme }) => css`
-    width: 100%;
-    max-width: ${theme.sizes.max};
-    margin: 0 auto;
+    padding-bottom: ${theme.spacings.xlarge};
+    margin-bottom: ${theme.spacings.xlarge};
+    border-bottom: 0.1rem solid ${theme.colors.mediumGray};
 
     ${HeadingStyles} {
-      margin: calc(${theme.spacings.xsmall} - 1rem) 0;
+      margin: 0;
+      margin-bottom: ${theme.spacings.medium};
 
       @media ${theme.media.lteMedium} {
         font-size: ${theme.font.sizes.large};
       }
     }
   `}
+`;
 
-  p {
-    ${({ theme }) => css`
-      margin: ${theme.spacings.xsmall} 0;
-    `}
-  }
+export const Excerpt = styled.p`
+  ${({ theme }) => css`
+    margin: ${theme.spacings.medium} 0;
+  `}
+`;
 
-  img {
-    width: 100%;
-    height: auto;
-  }
-
-  hr {
-    ${({ theme }) => css`
-      border: 1px solid ${theme.colors.mediumGray};
-      margin: ${theme.spacings.large} 0;
-    `}
-  }
+export const Cover = styled.img`
+  ${({ theme }) => css`
+    max-width: 100%;
+    display: block;
+    margin-bottom: ${theme.spacings.medium};
+  `}
 `;
