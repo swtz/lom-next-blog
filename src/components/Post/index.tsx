@@ -11,6 +11,7 @@ export type PostProps = {
   blogName: string;
   blogDescription: string;
   logo: string;
+  showText?: boolean;
   title: string;
   excerpt: string;
   cover: Cover;
@@ -22,6 +23,7 @@ export const Post = ({
   blogName,
   blogDescription,
   logo,
+  showText,
   title,
   excerpt,
   cover,
@@ -34,6 +36,7 @@ export const Post = ({
         blogName={blogName}
         blogDescription={blogDescription}
         logo={logo}
+        showText={showText}
       />
       <ArticleHeader
         title={title}
