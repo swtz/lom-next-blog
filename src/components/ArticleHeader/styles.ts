@@ -8,6 +8,7 @@ export const Wrapper = styled.header`
     border-bottom: 0.1rem solid ${theme.colors.mediumGray};
 
     ${HeadingStyles} {
+      font-size: ${theme.font.sizes.xxlarge};
       margin: 0;
       margin-bottom: ${theme.spacings.medium};
 
@@ -20,7 +21,12 @@ export const Wrapper = styled.header`
 
 export const Excerpt = styled.p`
   ${({ theme }) => css`
+    font-size: ${theme.font.sizes.medium};
     margin: ${theme.spacings.medium} 0;
+
+    @media ${theme.media.lteMedium} {
+      font-size: 2rem;
+    }
   `}
 `;
 

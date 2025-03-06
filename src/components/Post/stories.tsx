@@ -15,7 +15,7 @@ export default {
   },
 } as Meta<PostProps>;
 
-export const Template: StoryFn<PostProps> = ({ ...args }: PostProps) => {
+export const Template: StoryFn<PostProps> = ({ ...args }) => {
   return (
     <div>
       <Post {...args} />
