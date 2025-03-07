@@ -5,4 +5,4 @@ Seção:
 Seção 15: Projeto 2: Blog - Front-end com Next.js (e React)
 
 Aula:
-256. Componente PostContainer (só styled-components)
+257. Exercício - Componente Menu
