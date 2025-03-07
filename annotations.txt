@@ -5,4 +5,4 @@ Seção:
 Seção 15: Projeto 2: Blog - Front-end com Next.js (e React)
 
 Aula:
-252. Exercício - Componente ArticleHeader
+255. Solução - Component Post

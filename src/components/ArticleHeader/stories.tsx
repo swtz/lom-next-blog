@@ -8,14 +8,24 @@ export default {
   component: ArticleHeader,
   args: mock,
   argTypes: {
-    metadata: {
+    author: {
       control: {
         type: null,
       },
     },
-    image: {
+    categories: {
       control: {
         type: null,
+      },
+    },
+    cover: {
+      control: {
+        type: null,
+      },
+    },
+    createdAt: {
+      control: {
+        type: 'date',
       },
     },
   },

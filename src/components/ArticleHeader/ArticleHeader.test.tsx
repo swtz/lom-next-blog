@@ -23,7 +23,7 @@ describe('<ArticleHeader />', () => {
 
     expect(
       screen.getByRole('link', {
-        name: `${mock.metadata.author.data.attributes.displayName}`,
+        name: `${mock.author.data.attributes.displayName}`,
       }),
     ).toBeInTheDocument();
   });

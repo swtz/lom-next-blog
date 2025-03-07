@@ -111,9 +111,9 @@ exports[`<ArticleHeader /> should match snapshot 1`] = `
          | 
       </span>
       <time
-        datetime="2025-02-12T11:41:13.991Z"
+        datetime="2025-02-13T11:41:13.991Z"
       >
-        12 de fev. de 2025
+        13 de fev. de 2025
       </time>
       <span
         class="separator"

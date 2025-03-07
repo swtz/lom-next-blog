@@ -2,7 +2,7 @@ import { ArticleHeaderProps } from '.';
 import { ArticleMetaProps } from '../ArticleMeta';
 
 const metadata = {
-  createdAt: '2025-02-12T11:41:13.991Z',
+  createdAt: '2025-02-13T11:41:13.991Z',
   author: {
     data: {
       id: '1',
@@ -45,5 +45,5 @@ export default {
       },
     },
   },
-  metadata: metadata,
+  ...metadata,
 } as ArticleHeaderProps;
