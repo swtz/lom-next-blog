@@ -19,7 +19,7 @@ export default {
       default: 'light',
     },
   },
-} as Meta;
+} as Meta<MenuLinkProps>;
 
 export const Template: StoryFn<MenuLinkProps> = (args) => {
   return (
