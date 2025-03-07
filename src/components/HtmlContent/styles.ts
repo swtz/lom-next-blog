@@ -2,7 +2,7 @@ import styled, { css } from 'styled-components';
 
 export const Container = styled.div`
   ${({ theme }) => css`
-    font-size: calc(${theme.font.sizes.xsmall} + 0.2rem);
+    font-size: calc(${theme.font.sizes.xsmall} + 0.6rem);
     line-height: 1.5;
 
     p {
@@ -114,7 +114,7 @@ export const Container = styled.div`
     }
 
     @media ${theme.media.lteMedium} {
-      font-size: 2rem;
+      font-size: calc(${theme.font.sizes.xsmall} + 0.2rem);
 
       pre {
         font-size: 1.2rem;

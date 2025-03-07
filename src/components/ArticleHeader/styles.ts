@@ -8,13 +8,8 @@ export const Wrapper = styled.header`
     border-bottom: 0.1rem solid ${theme.colors.mediumGray};
 
     ${HeadingStyles} {
-      font-size: ${theme.font.sizes.xxlarge};
       margin: 0;
       margin-bottom: ${theme.spacings.medium};
-
-      @media ${theme.media.lteMedium} {
-        font-size: ${theme.font.sizes.large};
-      }
     }
   `}
 `;
@@ -25,7 +20,7 @@ export const Excerpt = styled.p`
     margin: ${theme.spacings.medium} 0;
 
     @media ${theme.media.lteMedium} {
-      font-size: 2rem;
+      font-size: calc(${theme.font.sizes.xsmall} + 0.2rem);
     }
   `}
 `;

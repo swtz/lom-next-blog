@@ -23,7 +23,7 @@ describe('<Footer />', () => {
       }
 
       .c1 {
-        font-size: calc(1.6rem + 0.2rem);
+        font-size: calc(1.6rem + 0.6rem);
         line-height: 1.5;
       }
 
@@ -141,7 +141,7 @@ describe('<Footer />', () => {
 
       @media (max-width:768px) {
         .c1 {
-          font-size: 2rem;
+          font-size: calc(1.6rem + 0.2rem);
         }
 
         .c1 pre {

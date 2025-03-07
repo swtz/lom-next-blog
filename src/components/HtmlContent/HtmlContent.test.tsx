@@ -23,7 +23,7 @@ describe('<HtmlContent />', () => {
     const { container } = renderTheme(<HtmlContent html="<b>content</b>" />);
     expect(container.firstChild).toMatchInlineSnapshot(`
       .c0 {
-        font-size: calc(1.6rem + 0.2rem);
+        font-size: calc(1.6rem + 0.6rem);
         line-height: 1.5;
       }
 
@@ -141,7 +141,7 @@ describe('<HtmlContent />', () => {
 
       @media (max-width:768px) {
         .c0 {
-          font-size: 2rem;
+          font-size: calc(1.6rem + 0.2rem);
         }
 
         .c0 pre {

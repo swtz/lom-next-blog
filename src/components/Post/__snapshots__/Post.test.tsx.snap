@@ -1,75 +1,21 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`<Post /> should match snapshot 1`] = `
-.c5 {
+.c6 {
   font-size: 1.6rem;
   color: #AAAAAA;
   font-style: italic;
 }
 
-.c5 .categories span::after {
+.c6 .categories span::after {
   content: ', ';
 }
 
-.c5 .categories span:last-child:after {
+.c6 .categories span:last-child:after {
   content: '';
 }
 
-.c5 a {
-  color: #DC143C;
-  -webkit-text-decoration: none;
-  text-decoration: none;
-  -webkit-transition: all 300ms ease-in-out;
-  transition: all 300ms ease-in-out;
-}
-
-.c5 a:hover {
-  -webkit-filter: brightness(50%);
-  filter: brightness(50%);
-}
-
-.c2 {
-  color: #000000;
-  line-height: 1.2;
-  font-size: 6.4rem;
-  text-transform: none;
-}
-
-.c0 {
-  padding-bottom: 4.0rem;
-  margin-bottom: 4.0rem;
-  border-bottom: 0.1rem solid #DDDDDD;
-}
-
-.c0 .c1 {
-  font-size: 4.8rem;
-  margin: 0;
-  margin-bottom: 2.4rem;
-}
-
-.c3 {
-  font-size: 2.4rem;
-  margin: 2.4rem 0;
-}
-
-.c4 {
-  max-width: 100%;
-  display: block;
-  margin-bottom: 2.4rem;
-}
-
-.c6 {
-  font-size: calc(1.6rem + 0.2rem);
-  line-height: 1.5;
-}
-
-.c6 p {
-  margin: 2.4rem 0;
-}
-
-.c6 a,
-.c6 a:visited,
-.c6 a:link {
+.c6 a {
   color: #DC143C;
   -webkit-text-decoration: none;
   text-decoration: none;
@@ -82,7 +28,60 @@ exports[`<Post /> should match snapshot 1`] = `
   filter: brightness(50%);
 }
 
-.c6 code {
+.c3 {
+  color: #000000;
+  line-height: 1.2;
+  font-size: 6.4rem;
+  text-transform: none;
+}
+
+.c1 {
+  padding-bottom: 4.0rem;
+  margin-bottom: 4.0rem;
+  border-bottom: 0.1rem solid #DDDDDD;
+}
+
+.c1 .c2 {
+  margin: 0;
+  margin-bottom: 2.4rem;
+}
+
+.c4 {
+  font-size: 2.4rem;
+  margin: 2.4rem 0;
+}
+
+.c5 {
+  max-width: 100%;
+  display: block;
+  margin-bottom: 2.4rem;
+}
+
+.c8 {
+  font-size: calc(1.6rem + 0.6rem);
+  line-height: 1.5;
+}
+
+.c8 p {
+  margin: 2.4rem 0;
+}
+
+.c8 a,
+.c8 a:visited,
+.c8 a:link {
+  color: #DC143C;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  -webkit-transition: all 300ms ease-in-out;
+  transition: all 300ms ease-in-out;
+}
+
+.c8 a:hover {
+  -webkit-filter: brightness(50%);
+  filter: brightness(50%);
+}
+
+.c8 code {
   font-family: monospace;
   color: #DC143C;
   font-size: 1.6rem;
@@ -91,7 +90,7 @@ exports[`<Post /> should match snapshot 1`] = `
   margin: 0.2rem;
 }
 
-.c6 pre {
+.c8 pre {
   background: #000000;
   padding: 2.4rem;
   font-family: monospace;
@@ -102,22 +101,22 @@ exports[`<Post /> should match snapshot 1`] = `
   overflow-x: auto;
 }
 
-.c6 pre code {
+.c8 pre code {
   color: inherit;
   background: inherit;
 }
 
-.c6 img {
+.c8 img {
   max-width: 100%;
 }
 
-.c6 .image {
+.c8 .image {
   background: #DDDDDD;
   line-height: 0;
   margin: 2.4rem 0;
 }
 
-.c6 .image figcaption {
+.c8 .image figcaption {
   background: #DDDDDD;
   font-size: 1.6rem;
   padding: .8rem;
@@ -125,47 +124,47 @@ exports[`<Post /> should match snapshot 1`] = `
   line-height: 1.3;
 }
 
-.c6 .image-style-side {
+.c8 .image-style-side {
   float: right;
   max-width: 50%;
   margin: 2.4rem .8rem;
 }
 
-.c6 hr {
+.c8 hr {
   border: none;
   border-bottom: 0.1rem solid #DDDDDD;
 }
 
-.c6 ul,
-.c6 ol {
+.c8 ul,
+.c8 ol {
   margin: 2.4rem 4.0rem;
 }
 
-.c6 .table {
+.c8 .table {
   width: 100%;
   overflow: hidden;
   overflow-x: auto;
 }
 
-.c6 table {
+.c8 table {
   width: 100%;
   border-collapse: collapse;
   margin: 2.4rem 0;
 }
 
-.c6 table td,
-.c6 table th {
+.c8 table td,
+.c8 table th {
   padding: .8rem;
   border: 0.1rem solid #DDDDDD;
 }
 
-.c6 .media iframe {
+.c8 .media iframe {
   width: 100%;
   height: auto;
   aspect-ratio: 16 / 9;
 }
 
-.c6 blockquote {
+.c8 blockquote {
   border-left: 0.5rem solid #DC143C;
   color: #AAAAAA;
   -webkit-filter: brightness(80%);
@@ -175,114 +174,138 @@ exports[`<Post /> should match snapshot 1`] = `
   margin: 2.4rem;
 }
 
+.c0 {
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 3.2rem;
+  max-width: 96rem;
+}
+
+.c7 {
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 3.2rem;
+  max-width: 80rem;
+}
+
 @media (max-width:768px) {
-  .c2 {
+  .c3 {
     font-size: 4.0rem;
   }
 }
 
 @media (max-width:768px) {
-  .c0 .c1 {
-    font-size: 3.2rem;
+  .c4 {
+    font-size: calc(1.6rem + 0.2rem);
   }
 }
 
 @media (max-width:768px) {
-  .c3 {
-    font-size: 2rem;
-  }
-}
-
-@media (max-width:768px) {
-  .c6 {
-    font-size: 2rem;
+  .c8 {
+    font-size: calc(1.6rem + 0.2rem);
   }
 
-  .c6 pre {
+  .c8 pre {
     font-size: 1.2rem;
   }
 
-  .c6 .image-style-side {
+  .c8 .image-style-side {
     float: none;
     max-width: 100%;
     margin: 4.0rem 0;
   }
 }
 
+@media (max-width:550px) {
+  .c0 {
+    padding: 0 1.6rem;
+  }
+}
+
+@media (max-width:550px) {
+  .c7 {
+    padding: 0 1.6rem;
+  }
+}
+
 <article
   class=""
 >
-  <header
+  <div
     class="c0"
   >
-    <h2
-      class="c1 c2"
+    <header
+      class="c1"
     >
-      Hello, rice! With rice is possible make a several delicious dishes
-    </h2>
-    <p
-      class="c3"
-    >
-      Rice is a cereal grain and in its domesticated form is the staple food of over half of the world's population, particularly in Asia and Africa. Rice is the seed of the grass species Oryza sativa (Asian rice).
-    </p>
-    <img
-      alt="Rice is a cereal grain and in its domesticated form is the staple food of over half of the world's population, particularly in Asia and Africa. Rice is the seed of the grass species Oryza sativa (Asian rice)."
-      class="c4"
-      src="/assets/images/arroz-branco-saudavel.webp"
-    />
-    <div
-      class="c5"
-    >
-      <p>
-        <span>
-          Por 
-        </span>
-        <a
-          href="/author/surfista"
-        >
-          surfista
-        </a>
-        <span
-          class="separator"
-        >
-           | 
-        </span>
-        <time
-          datetime="2025-02-13T11:41:13.991Z"
-        >
-          13 de fev. de 2025
-        </time>
-        <span
-          class="separator"
-        >
-           | 
-        </span>
-        <span
-          class="categories"
-        >
-          <span>
-            <a
-              href="/category/off-topic"
-            >
-              Off Topic
-            </a>
-          </span>
-          <span>
-            <a
-              href="/category/tech"
-            >
-              tech
-            </a>
-          </span>
-        </span>
+      <h2
+        class="c2 c3"
+      >
+        Hello, rice! With rice is possible make a several delicious dishes
+      </h2>
+      <p
+        class="c4"
+      >
+        Rice is a cereal grain and in its domesticated form is the staple food of over half of the world's population, particularly in Asia and Africa. Rice is the seed of the grass species Oryza sativa (Asian rice).
       </p>
-    </div>
-  </header>
+      <img
+        alt="Rice is a cereal grain and in its domesticated form is the staple food of over half of the world's population, particularly in Asia and Africa. Rice is the seed of the grass species Oryza sativa (Asian rice)."
+        class="c5"
+        src="/assets/images/arroz-branco-saudavel.webp"
+      />
+      <div
+        class="c6"
+      >
+        <p>
+          <span>
+            Por 
+          </span>
+          <a
+            href="/author/surfista"
+          >
+            surfista
+          </a>
+          <span
+            class="separator"
+          >
+             | 
+          </span>
+          <time
+            datetime="2025-02-13T11:41:13.991Z"
+          >
+            13 de fev. de 2025
+          </time>
+          <span
+            class="separator"
+          >
+             | 
+          </span>
+          <span
+            class="categories"
+          >
+            <span>
+              <a
+                href="/category/off-topic"
+              >
+                Off Topic
+              </a>
+            </span>
+            <span>
+              <a
+                href="/category/tech"
+              >
+                tech
+              </a>
+            </span>
+          </span>
+        </p>
+      </div>
+    </header>
+  </div>
   <div
-    class=""
+    class="c7"
   >
     <div
-      class="c6"
+      class="c8"
     >
       <p>
         Nostro 
