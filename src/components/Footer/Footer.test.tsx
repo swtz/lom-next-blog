@@ -23,11 +23,12 @@ describe('<Footer />', () => {
       }
 
       .c1 {
-        font-size: 2.4rem;
+        font-size: calc(1.6rem + 0.2rem);
+        line-height: 1.5;
       }
 
       .c1 p {
-        margin: 4.0rem 0;
+        margin: 2.4rem 0;
       }
 
       .c1 a,
@@ -45,15 +46,29 @@ describe('<Footer />', () => {
         filter: brightness(50%);
       }
 
+      .c1 code {
+        font-family: monospace;
+        color: #DC143C;
+        font-size: 1.6rem;
+        background: #DDDDDD;
+        padding: 0.2rem;
+        margin: 0.2rem;
+      }
+
       .c1 pre {
         background: #000000;
         padding: 2.4rem;
         font-family: monospace;
         color: #FFFFFF;
-        margin: 4.0rem 0;
+        margin: 2.4rem 0;
         font-size: 1.6rem;
         width: 100%;
         overflow-x: auto;
+      }
+
+      .c1 pre code {
+        color: inherit;
+        background: inherit;
       }
 
       .c1 img {
@@ -63,7 +78,7 @@ describe('<Footer />', () => {
       .c1 .image {
         background: #DDDDDD;
         line-height: 0;
-        margin: 4.0rem 0;
+        margin: 2.4rem 0;
       }
 
       .c1 .image figcaption {
@@ -77,7 +92,7 @@ describe('<Footer />', () => {
       .c1 .image-style-side {
         float: right;
         max-width: 50%;
-        margin: 2.4rem;
+        margin: 2.4rem .8rem;
       }
 
       .c1 hr {
@@ -87,7 +102,7 @@ describe('<Footer />', () => {
 
       .c1 ul,
       .c1 ol {
-        margin: 4.0rem;
+        margin: 2.4rem 4.0rem;
       }
 
       .c1 .table {
@@ -99,6 +114,7 @@ describe('<Footer />', () => {
       .c1 table {
         width: 100%;
         border-collapse: collapse;
+        margin: 2.4rem 0;
       }
 
       .c1 table td,
@@ -111,6 +127,16 @@ describe('<Footer />', () => {
         width: 100%;
         height: auto;
         aspect-ratio: 16 / 9;
+      }
+
+      .c1 blockquote {
+        border-left: 0.5rem solid #DC143C;
+        color: #AAAAAA;
+        -webkit-filter: brightness(80%);
+        filter: brightness(80%);
+        padding-left: 2.4rem;
+        font-style: italic;
+        margin: 2.4rem;
       }
 
       @media (max-width:768px) {

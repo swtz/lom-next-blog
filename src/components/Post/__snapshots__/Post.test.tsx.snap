@@ -30,6 +30,7 @@ exports[`<Post /> should match snapshot 1`] = `
 
 .c2 {
   color: #000000;
+  line-height: 1.2;
   font-size: 6.4rem;
   text-transform: none;
 }
@@ -58,11 +59,12 @@ exports[`<Post /> should match snapshot 1`] = `
 }
 
 .c6 {
-  font-size: 2.4rem;
+  font-size: calc(1.6rem + 0.2rem);
+  line-height: 1.5;
 }
 
 .c6 p {
-  margin: 4.0rem 0;
+  margin: 2.4rem 0;
 }
 
 .c6 a,
@@ -80,15 +82,29 @@ exports[`<Post /> should match snapshot 1`] = `
   filter: brightness(50%);
 }
 
+.c6 code {
+  font-family: monospace;
+  color: #DC143C;
+  font-size: 1.6rem;
+  background: #DDDDDD;
+  padding: 0.2rem;
+  margin: 0.2rem;
+}
+
 .c6 pre {
   background: #000000;
   padding: 2.4rem;
   font-family: monospace;
   color: #FFFFFF;
-  margin: 4.0rem 0;
+  margin: 2.4rem 0;
   font-size: 1.6rem;
   width: 100%;
   overflow-x: auto;
+}
+
+.c6 pre code {
+  color: inherit;
+  background: inherit;
 }
 
 .c6 img {
@@ -98,7 +114,7 @@ exports[`<Post /> should match snapshot 1`] = `
 .c6 .image {
   background: #DDDDDD;
   line-height: 0;
-  margin: 4.0rem 0;
+  margin: 2.4rem 0;
 }
 
 .c6 .image figcaption {
@@ -112,7 +128,7 @@ exports[`<Post /> should match snapshot 1`] = `
 .c6 .image-style-side {
   float: right;
   max-width: 50%;
-  margin: 2.4rem;
+  margin: 2.4rem .8rem;
 }
 
 .c6 hr {
@@ -122,7 +138,7 @@ exports[`<Post /> should match snapshot 1`] = `
 
 .c6 ul,
 .c6 ol {
-  margin: 4.0rem;
+  margin: 2.4rem 4.0rem;
 }
 
 .c6 .table {
@@ -134,6 +150,7 @@ exports[`<Post /> should match snapshot 1`] = `
 .c6 table {
   width: 100%;
   border-collapse: collapse;
+  margin: 2.4rem 0;
 }
 
 .c6 table td,
@@ -146,6 +163,16 @@ exports[`<Post /> should match snapshot 1`] = `
   width: 100%;
   height: auto;
   aspect-ratio: 16 / 9;
+}
+
+.c6 blockquote {
+  border-left: 0.5rem solid #DC143C;
+  color: #AAAAAA;
+  -webkit-filter: brightness(80%);
+  filter: brightness(80%);
+  padding-left: 2.4rem;
+  font-style: italic;
+  margin: 2.4rem;
 }
 
 @media (max-width:768px) {
@@ -274,7 +301,11 @@ exports[`<Post /> should match snapshot 1`] = `
         <code>
           useEffect
         </code>
-        , useState dicat fabulas 
+        , 
+        <code>
+          useState
+        </code>
+         dicat fabulas 
         <a
           href="https://gist.github.com/luizomf/e7cf0c3d172801225cce694681ecb0ad"
         >

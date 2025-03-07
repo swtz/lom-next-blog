@@ -21,6 +21,7 @@ describe('<Heading />', () => {
     expect(container.firstChild).toMatchInlineSnapshot(`
       .c0 {
         color: #000000;
+        line-height: 1.2;
         font-size: 6.4rem;
         text-transform: none;
       }

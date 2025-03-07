@@ -1,7 +1,6 @@
 import { screen } from '@testing-library/react';
 import { HtmlContent } from '.';
 import { renderTheme } from '../../styles/render-theme';
-import { theme } from '../../styles/theme';
 
 describe('<HtmlContent />', () => {
   it('should render a text', () => {
@@ -9,15 +8,27 @@ describe('<HtmlContent />', () => {
     expect(screen.getByText('content')).toBeInTheDocument();
   });
 
+  it('should render correct font-size', () => {
+    renderTheme(<HtmlContent html="<p class='text'>Hello, world!</p>" />);
+    expect(screen.getByRole('paragraph')).toHaveAttribute('class', 'text');
+  });
+
+  it('should render correct paragraph element', () => {
+    const { container } = renderTheme(<HtmlContent html="<b>content</b>" />);
+    const div = container.querySelector('div');
+    expect(div.tagName.toLowerCase()).toBe('div');
+  });
+
   it('should match snapshot', () => {
     const { container } = renderTheme(<HtmlContent html="<b>content</b>" />);
     expect(container.firstChild).toMatchInlineSnapshot(`
       .c0 {
-        font-size: 2.4rem;
+        font-size: calc(1.6rem + 0.2rem);
+        line-height: 1.5;
       }
 
       .c0 p {
-        margin: 4.0rem 0;
+        margin: 2.4rem 0;
       }
 
       .c0 a,
@@ -35,15 +46,29 @@ describe('<HtmlContent />', () => {
         filter: brightness(50%);
       }
 
+      .c0 code {
+        font-family: monospace;
+        color: #DC143C;
+        font-size: 1.6rem;
+        background: #DDDDDD;
+        padding: 0.2rem;
+        margin: 0.2rem;
+      }
+
       .c0 pre {
         background: #000000;
         padding: 2.4rem;
         font-family: monospace;
         color: #FFFFFF;
-        margin: 4.0rem 0;
+        margin: 2.4rem 0;
         font-size: 1.6rem;
         width: 100%;
         overflow-x: auto;
+      }
+
+      .c0 pre code {
+        color: inherit;
+        background: inherit;
       }
 
       .c0 img {
@@ -53,7 +78,7 @@ describe('<HtmlContent />', () => {
       .c0 .image {
         background: #DDDDDD;
         line-height: 0;
-        margin: 4.0rem 0;
+        margin: 2.4rem 0;
       }
 
       .c0 .image figcaption {
@@ -67,7 +92,7 @@ describe('<HtmlContent />', () => {
       .c0 .image-style-side {
         float: right;
         max-width: 50%;
-        margin: 2.4rem;
+        margin: 2.4rem .8rem;
       }
 
       .c0 hr {
@@ -77,7 +102,7 @@ describe('<HtmlContent />', () => {
 
       .c0 ul,
       .c0 ol {
-        margin: 4.0rem;
+        margin: 2.4rem 4.0rem;
       }
 
       .c0 .table {
@@ -89,6 +114,7 @@ describe('<HtmlContent />', () => {
       .c0 table {
         width: 100%;
         border-collapse: collapse;
+        margin: 2.4rem 0;
       }
 
       .c0 table td,
@@ -101,6 +127,16 @@ describe('<HtmlContent />', () => {
         width: 100%;
         height: auto;
         aspect-ratio: 16 / 9;
+      }
+
+      .c0 blockquote {
+        border-left: 0.5rem solid #DC143C;
+        color: #AAAAAA;
+        -webkit-filter: brightness(80%);
+        filter: brightness(80%);
+        padding-left: 2.4rem;
+        font-style: italic;
+        margin: 2.4rem;
       }
 
       @media (max-width:768px) {
@@ -127,18 +163,5 @@ describe('<HtmlContent />', () => {
         </b>
       </div>
     `);
-  });
-
-  it('should render correct font-size', () => {
-    renderTheme(<HtmlContent html="content" />);
-    expect(screen.getByText('content')).toHaveStyle({
-      'font-size': theme.font.sizes.medium,
-    });
-  });
-
-  it('should render correct paragraph element', () => {
-    const { container } = renderTheme(<HtmlContent html="<b>content</b>" />);
-    const div = container.querySelector('div');
-    expect(div.tagName.toLowerCase()).toBe('div');
   });
 });
