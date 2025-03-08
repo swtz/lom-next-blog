@@ -1,46 +1,44 @@
 import { MenuProps } from '.';
 
 export default {
-  text: 'Hello, LogoLink!',
-  srcImg: 'assets/images/logo.svg',
-  link: 'https://www.jw.org',
-  newTab: false,
   links: [
     {
       id: 10,
-      children: 'intro',
-      link: '#intro',
+      text: 'intro',
+      link: '/home/1',
       newTab: false,
     },
     {
       id: 8,
-      children: 'grid-one',
-      link: '#grid-one',
+      text: 'grid-one',
+      link: '/home/2',
       newTab: false,
     },
     {
       id: 9,
-      children: 'gallery',
-      link: '#gallery',
+      text: 'gallery',
+      link: '/home/3',
       newTab: false,
     },
     {
       id: 11,
-      children: 'grid-two',
-      link: '#grid-two',
+      text: 'grid-two',
+      link: '/home/4',
       newTab: false,
     },
     {
       id: 7,
-      children: 'contact',
-      link: '#contact',
+      text: 'contact',
+      link: '/home/5',
       newTab: false,
     },
     {
       id: 12,
-      children: 'Dev',
+      text: 'Dev',
       link: 'https://github.com/swtz',
       newTab: true,
     },
   ],
+  blogName: 'Hello, rice!',
+  logo: '/assets/images/logo.svg',
 } as MenuProps;

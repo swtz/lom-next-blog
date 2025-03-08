@@ -1,15 +1,17 @@
 import { screen } from '@testing-library/react';
 import { renderTheme } from '../../styles/render-theme';
-import { Menu } from '.';
+import { Menu, MenuProps } from '.';
 
 import mock from './mock';
 
+const props: MenuProps = mock;
+
 describe('<Menu />', () => {
   it('should render', () => {
-    renderTheme(<Menu {...mock} />);
+    renderTheme(<Menu {...props} />);
 
     expect(
-      screen.getByRole('heading', { name: 'Hello, LogoLink!' }),
+      screen.getByRole('heading', { name: 'Hello, rice!' }),
     ).toBeInTheDocument();
   });
 });

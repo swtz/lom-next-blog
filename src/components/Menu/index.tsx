@@ -1,31 +1,42 @@
+import { Menu as MenuIcon } from '@styled-icons/material-outlined';
 import * as Styled from './styles';
-import { Menu as MenuIcon } from '@styled-icons/material-outlined/Menu';
-import { Close as CloseIcon } from '@styled-icons/material-outlined/Close';
-import { LogoLink, LogoLinkProps } from '../LogoLink';
-import { MenuLink, MenuLinkProps } from '../MenuLink';
-import { useState } from 'react';
+import { LogoLink } from '../LogoLink';
+import { MenuLink } from '../MenuLink';
 
-export type MenuProps = LogoLinkProps & {
-  links: MenuLinkProps[];
+export type MenuPropsLinks = {
+  id: number;
+  link: string;
+  newTab?: boolean;
+  text: string;
 };
 
-export const Menu = ({ links = [], link, text, newTab, srcImg }: MenuProps) => {
-  const [visible, setVisible] = useState(false);
+export type MenuProps = {
+  links: MenuPropsLinks[];
+  blogName: string;
+  logo: string;
+};
 
+export const Menu = ({ links = [], blogName, logo }: MenuProps) => {
   return (
     <>
-      <Styled.Button visible={visible} onClick={() => setVisible(!visible)}>
-        {visible ? <CloseIcon /> : <MenuIcon />}
-      </Styled.Button>
-      <Styled.Wrapper visible={visible} onClick={() => setVisible(!visible)}>
-        <LogoLink link={link} text={text} srcImg={srcImg} newTab={newTab} />
-        <Styled.MenuNav>
+      <Styled.OpenClose
+        href="#"
+        aria-label="Open or close menu"
+        title="Open or close menu"
+      >
+        <MenuIcon aria-label="Open menu" />
+      </Styled.OpenClose>
+      <Styled.Wrapper>
+        <Styled.Nav>
+          <Styled.Logo>
+            <LogoLink link="/" text={blogName} srcImg={logo} />
+          </Styled.Logo>
           {links.map((item) => (
             <MenuLink key={item.id} link={item.link} newTab={item.newTab}>
-              {item.children}
+              {item.text}
             </MenuLink>
           ))}
-        </Styled.MenuNav>
+        </Styled.Nav>
       </Styled.Wrapper>
     </>
   );
