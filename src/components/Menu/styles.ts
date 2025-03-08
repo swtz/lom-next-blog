@@ -22,6 +22,13 @@ export const Wrapper = styled.menu<ButtonProps>`
     left: ${visible ? 0 : '-30rem'};
     transition: all 300ms ease-in-out;
 
+    @media (max-height: 550px) {
+      flex-flow: row;
+      gap: 3rem;
+      max-width: 50rem;
+      left: ${visible ? 0 : '-49rem'};
+    }
+
     ${LogoLinkStyles} {
       padding-top: ${theme.spacings.xxlarge};
       padding-bottom: ${theme.spacings.xsmall};
@@ -33,6 +40,11 @@ export const Wrapper = styled.menu<ButtonProps>`
 
       > img:hover {
         scale: 1.2;
+      }
+
+      @media (max-height: 550px) {
+        padding-left: 1rem;
+        padding-top: 0;
       }
     }
   `}
@@ -58,5 +70,10 @@ export const Button = styled.button<ButtonProps>`
     border: none;
     cursor: pointer;
     transition: all 350ms ease-in-out;
+
+    @media (max-height: 550px) {
+      top: -1rem;
+      left: ${visible ? '45rem' : 0};
+    }
   `}
 `;
