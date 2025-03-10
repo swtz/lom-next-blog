@@ -5,4 +5,4 @@ Seção:
 Seção 15: Projeto 2: Blog - Front-end com Next.js (e React)
 
 Aula:
-258. Componente Menu - Parte 1
+259. Componente Menu - Parte 2

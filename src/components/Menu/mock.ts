@@ -34,6 +34,36 @@ export default {
     },
     {
       id: 12,
+      text: 'Javascript',
+      link: '/home/6',
+      newTab: false,
+    },
+    {
+      id: 13,
+      text: 'Python',
+      link: '/home/7',
+      newTab: false,
+    },
+    {
+      id: 14,
+      text: 'Pac-man',
+      link: '/home/8',
+      newTab: false,
+    },
+    {
+      id: 15,
+      text: 'Girafas',
+      link: '/home/9',
+      newTab: false,
+    },
+    {
+      id: 16,
+      text: 'Postal',
+      link: '/home/10',
+      newTab: false,
+    },
+    {
+      id: 12,
       text: 'Dev',
       link: 'https://github.com/swtz',
       newTab: true,
