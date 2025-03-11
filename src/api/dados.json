@@ -1,57 +1,43 @@
 {
   "data": {
-    "posts": {
-      "data": [
-        {
-          "id": "1",
-          "attributes": {
-            "title": "Hello, rice!",
-            "slug": "hello-rice",
-            "excerpt": "Rice is a cereal grain and in its domesticated form is the staple food of over half of the world's population, particularly in Asia and Africa. Rice is the seed of the grass species Oryza sativa (Asian rice).",
-            "content": "<h3>Scroll down to learn more about this amazing grain:</h3><p>&lt;p&gt;The <a class=\"mw-redirect\" target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://en.wikipedia.org/wiki/List_of_rice_varieties\" title=\"List of rice varieties\">varieties of rice</a> are typically classified as long-, medium-, and short-grained.<a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://en.wikipedia.org/wiki/Rice_as_food#cite_note-1\"><span class=\"cite-bracket\"><sup class=\"reference\" id=\"cite_ref-1\">[</sup></span><sup class=\"reference\" id=\"cite_ref-1\">1</sup><span class=\"cite-bracket\"><sup class=\"reference\" id=\"cite_ref-1\">]</sup></span></a> The grains of long-grain rice (high in <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://en.wikipedia.org/wiki/Amylose\" title=\"Amylose\">amylose</a>) tend to remain intact after cooking; medium-grain rice (high in <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://en.wikipedia.org/wiki/Amylopectin\" title=\"Amylopectin\">amylopectin</a>) becomes more sticky.&lt;/p&gt;</p><p><img class=\"image_resized image-style-align-left\" style=\"width:50%;\" src=\"https://pub-aea127bc483c40dea7b9339692296909.r2.dev/rice_combine_harvester_6cc6e5017f.jpg\" alt=\"rice-combine-harvester.jpg\" srcset=\"https://pub-aea127bc483c40dea7b9339692296909.r2.dev/thumbnail_rice_combine_harvester_6cc6e5017f.jpg 208w,https://pub-aea127bc483c40dea7b9339692296909.r2.dev/small_rice_combine_harvester_6cc6e5017f.jpg 500w,https://pub-aea127bc483c40dea7b9339692296909.r2.dev/medium_rice_combine_harvester_6cc6e5017f.jpg 750w,https://pub-aea127bc483c40dea7b9339692296909.r2.dev/large_rice_combine_harvester_6cc6e5017f.jpg 1000w,\" sizes=\"100vw\" width=\"1000px\"></p><p>&lt;p&gt;Medium-grain rice is used for sweet dishes, for <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://en.wikipedia.org/wiki/Risotto\" title=\"Risotto\">risotto</a> in Italy, and many rice dishes, such as <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://en.wikipedia.org/wiki/Arr%C3%B2s_negre\" title=\"Arròs negre\"><i lang=\"ca-valencia\"><span title=\"Valencian-language text\">arròs negre</span></i></a>, in Spain. Some varieties of long-grain rice that are high in <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://en.wikipedia.org/wiki/Amylopectin\" title=\"Amylopectin\">amylopectin</a>, known as Thai Sticky rice, are usually steamed.&lt;/p&gt;</p><p>&lt;p&gt;A stickier short-grain rice is used for <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://en.wikipedia.org/wiki/Sushi\" title=\"Sushi\">sushi</a>;<a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://en.wikipedia.org/wiki/Rice_as_food#cite_note-Kitchen2020-3\"><span class=\"cite-bracket\"><sup class=\"reference\" id=\"cite_ref-Kitchen2020_3-0\">[</sup></span><sup class=\"reference\" id=\"cite_ref-Kitchen2020_3-0\">3</sup><span class=\"cite-bracket\"><sup class=\"reference\" id=\"cite_ref-Kitchen2020_3-0\">]</sup></span></a> the stickiness allows rice to hold its shape when cooked.<a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://en.wikipedia.org/wiki/Rice_as_food#cite_note-Simmons2009-4\"><span class=\"cite-bracket\"><sup class=\"reference\" id=\"cite_ref-Simmons2009_4-0\">[</sup></span><sup class=\"reference\" id=\"cite_ref-Simmons2009_4-0\">4</sup><span class=\"cite-bracket\"><sup class=\"reference\" id=\"cite_ref-Simmons2009_4-0\">]</sup></span></a> Short-grain rice is used extensively in Japan,<a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://en.wikipedia.org/wiki/Rice_as_food#cite_note-5\"><span class=\"cite-bracket\"><sup class=\"reference\" id=\"cite_ref-5\">[</sup></span><sup class=\"reference\" id=\"cite_ref-5\">5</sup><span class=\"cite-bracket\"><sup class=\"reference\" id=\"cite_ref-5\">]</sup></span></a> including to accompany savoury dishes.<a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://en.wikipedia.org/wiki/Rice_as_food#cite_note-AlfordDuguid2003-6\"><span class=\"cite-bracket\"><sup class=\"reference\" id=\"cite_ref-AlfordDuguid2003_6-0\">[</sup></span><sup class=\"reference\" id=\"cite_ref-AlfordDuguid2003_6-0\">6</sup><span class=\"cite-bracket\"><sup class=\"reference\" id=\"cite_ref-AlfordDuguid2003_6-0\">]</sup></span></a> Short-grain rice is often used for <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://en.wikipedia.org/wiki/Rice_pudding\" title=\"Rice pudding\">rice pudding</a>.&lt;/p&gt;</p><p>&lt;strong&gt;Highly recommended eat rice with beans, right?&lt;/strong&gt;</p>",
-            "allowComments": false,
-            "tags": {
-              "data": [
-                {
-                  "id": "3",
-                  "attributes": {
-                    "displayName": "fit",
-                    "slug": "fit"
-                  }
-                }
-              ]
-            },
-            "author": {
-              "data": {
-                "id": "4",
-                "attributes": {
-                  "displayName": "João Embaixadinha",
-                  "slug": "joao-embaixadinha"
-                }
-              }
-            },
-            "categories": {
-              "data": [
-                {
-                  "id": "3",
-                  "attributes": {
-                    "displayName": "cooking",
-                    "slug": "cooking"
-                  }
-                }
-              ]
-            },
-            "cover": {
-              "data": {
-                "id": 1,
-                "attributes": {
-                  "url": "https://pub-aea127bc483c40dea7b9339692296909.r2.dev/stages_of_rice_milling_8cb950424c.jpeg",
-                  "alternativeText": null
-                }
+    "setting": {
+      "data": {
+        "id": "1",
+        "attributes": {
+          "blogName": "Mundo do Arroz",
+          "blogDescription": "Um pedacinho do mundo que circunda um dos maiores carros-chefe da alimentação do PLANETA INTEIRO: o arroz.",
+          "logo": {
+            "data": {
+              "id": "3",
+              "attributes": {
+                "url": "https://pub-aea127bc483c40dea7b9339692296909.r2.dev/rice_icon_762798b97d.svg",
+                "alternativeText": null
               }
             }
-          }
-        },
+          },
+          "menuLink": [
+            {
+              "link": "#",
+              "newTab": false,
+              "text": "home"
+            },
+            {
+              "link": "#page1",
+              "newTab": false,
+              "text": "page1"
+            },
+            {
+              "link": "#page2",
+              "newTab": false,
+              "text": "page2"
+            }
+          ],
+          "text": "<p>Testando o CKEditor... and....</p><pre><code class=\"language-plaintext\">npm i -D typecript @types/react @types/node @types/next</code></pre>"
+        }
+      }
+    },
+    "posts": {
+      "data": [
         {
           "id": "2",
           "attributes": {
@@ -107,7 +93,6 @@
             },
             "cover": {
               "data": {
-                "id": 1,
                 "attributes": {
                   "url": "https://pub-aea127bc483c40dea7b9339692296909.r2.dev/DALL_E_2024_10_26_12_58_20_A_modern_logo_design_for_Deck_da_Praia_Conveniencia_featuring_a_fox_mascot_representing_cold_beer_delivery_The_fox_should_appear_in_motion_with_sp_fd834176b6.webp",
                   "alternativeText": null

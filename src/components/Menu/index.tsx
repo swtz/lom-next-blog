@@ -6,7 +6,7 @@ import { MenuLink } from '../MenuLink';
 import { useState } from 'react';
 
 export type MenuPropsLinks = {
-  id: number;
+  id: string;
   link: string;
   newTab?: boolean;
   text: string;
