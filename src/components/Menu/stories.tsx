@@ -7,11 +7,14 @@ export default {
   title: 'Menu',
   component: Menu,
   args: mock,
+  parameters: {
+    layout: 'fullscreen',
+  },
 } as Meta<MenuProps>;
 
 export const Template: StoryFn<MenuProps> = (args) => {
   return (
-    <div style={{ maxWidth: '60rem', margin: '5rem auto' }}>
+    <div style={{ maxWidth: '60rem', margin: '5rem auto', padding: '3.2rem' }}>
       <Menu {...args} />
       <p>
         Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quia non

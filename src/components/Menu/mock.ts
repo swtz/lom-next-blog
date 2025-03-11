@@ -33,7 +33,7 @@ export default {
       newTab: false,
     },
     {
-      id: 12,
+      id: 17,
       text: 'Javascript',
       link: '/home/6',
       newTab: false,

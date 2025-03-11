@@ -37,7 +37,7 @@ export const Menu = ({ links = [], blogName, logo }: MenuProps) => {
         {menuVisible && <CloseIcon aria-label="Close menu" />}
         {!menuVisible && <MenuIcon aria-label="Open menu" />}
       </Styled.OpenClose>
-      <Styled.Wrapper menuVisible={menuVisible}>
+      <Styled.Wrapper menuVisible={menuVisible} aria-hidden={!menuVisible}>
         <Styled.Nav>
           <Styled.Logo>
             <LogoLink link="/" text={blogName} srcImg={logo} />
