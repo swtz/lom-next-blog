@@ -1,79 +1,79 @@
-import styled, { css } from 'styled-components';
-import { Container as LogoLinkStyles } from '../LogoLink/styles';
+import styled, { css, DefaultTheme } from 'styled-components';
+import { Title as HeadingStyles } from '../Heading/styles';
 
-type ButtonProps = {
-  visible: boolean;
+type MenuBehaviorProps = {
+  menuVisible: boolean;
+  theme: DefaultTheme;
 };
 
-export const Wrapper = styled.menu<ButtonProps>`
-  ${({ theme, visible }) => css`
-    display: flex;
-    flex-flow: column wrap;
-    align-items: center;
+const wrapperChanger = (
+  menuVisible: MenuBehaviorProps['menuVisible'],
+  theme: DefaultTheme,
+) => css`
+  left: ${menuVisible ? '0' : '-30rem'};
+  overflow-y: ${menuVisible ? 'auto' : 'hidden'};
 
+  @media ${theme.media.lteMedium} {
+    left: ${menuVisible ? '0' : '-32rem'};
+  }
+`;
+
+export const Wrapper = styled.div<MenuBehaviorProps>`
+  ${({ theme, menuVisible }) => css`
+    background: ${theme.colors.primary};
+    padding: ${theme.spacings.large};
+    display: flex;
+    position: fixed;
+    z-index: 1;
     width: 100%;
     max-width: 32rem;
-    background: ${theme.colors.primary};
-    padding: ${theme.spacings.large} ${theme.spacings.xsmall};
-
-    position: fixed;
     height: 100vh;
     top: 0;
-    left: ${visible ? 0 : '-30rem'};
+    left: 0;
     transition: all 300ms ease-in-out;
+    ${wrapperChanger(menuVisible, theme)}
+  `}
+`;
 
-    @media (max-height: 550px) {
-      flex-flow: row;
-      gap: 3rem;
-      max-width: 50rem;
-      left: ${visible ? 0 : '-49rem'};
-    }
+export const Nav = styled.nav`
+  margin: auto;
+  width: 100%;
+`;
 
-    ${LogoLinkStyles} {
-      padding-top: ${theme.spacings.xxlarge};
-      padding-bottom: ${theme.spacings.xsmall};
+export const Logo = styled.div`
+  ${({ theme }) => css`
+    ${HeadingStyles} {
+      display: flex;
+      justify-content: center;
+      margin: 0;
+      margin-bottom: ${theme.spacings.xlarge};
 
-      > img {
-        border: 0.4rem solid ${theme.colors.white};
-        transition: all 300ms ease-in-out;
-      }
-
-      > img:hover {
-        scale: 1.2;
-      }
-
-      @media (max-height: 550px) {
-        padding-left: 1rem;
-        padding-top: 0;
+      img {
+        border: 0.5rem solid ${theme.colors.white};
       }
     }
   `}
 `;
 
-export const MenuNav = styled.nav`
-  ${() => css`
-    width: 100%;
-    text-transform: uppercase;
-  `}
+const buttonChanger = (
+  menuVisible: MenuBehaviorProps['menuVisible'],
+  theme: DefaultTheme,
+) => css`
+  left: ${menuVisible ? '26rem' : '1rem'};
+  color: ${menuVisible ? theme.colors.secondary : theme.colors.white};
 `;
 
-export const Button = styled.button<ButtonProps>`
-  ${({ theme, visible }) => css`
+export const OpenClose = styled.a<MenuBehaviorProps>`
+  ${({ theme, menuVisible }) => css`
     position: fixed;
-    top: 0;
-    left: ${visible ? '27rem' : 0};
-    z-index: 500;
-    margin: 2rem 0;
-    width: 3rem;
-    background: ${theme.colors.primary};
+    top: ${theme.spacings.medium};
     color: ${theme.colors.white};
-    border: none;
-    cursor: pointer;
+    background: ${theme.colors.primary};
+    z-index: 2;
+    width: 3rem;
+    height: 3rem;
+    left: 26rem;
     transition: all 350ms ease-in-out;
-
-    @media (max-height: 550px) {
-      top: -1rem;
-      left: ${visible ? '45rem' : 0};
-    }
+    ${buttonChanger(menuVisible, theme)};
   `}
 `;

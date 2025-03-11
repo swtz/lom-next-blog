@@ -1,6 +1,6 @@
 export type Cover = {
   data: {
-    id: number;
+    id: string;
     attributes: {
       url: string;
       alternativeText: string | null;
