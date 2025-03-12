@@ -1,0 +1,71 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<PostCard /> should match snapshot 1`] = `
+.c3 {
+  color: #000000;
+  line-height: 1.2;
+  font-size: 2.4rem;
+  text-transform: none;
+}
+
+.c0 {
+  text-align: center;
+}
+
+.c0 .c2 {
+  margin: 0;
+  margin-top: .8rem;
+  margin-bottom: .8rem;
+  -webkit-transition: all 300ms ease-in-out;
+  transition: all 300ms ease-in-out;
+}
+
+.c0 a {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.c0:hover .c2 {
+  color: #DC143C;
+}
+
+.c0:hover img {
+  opacity: 0.8;
+}
+
+.c1 {
+  max-width: 100%;
+  -webkit-transition: opacity 300ms ease-in-out;
+  transition: opacity 300ms ease-in-out;
+}
+
+<div>
+  <div
+    class="c0"
+  >
+    <a
+      href="/post/hello-fox"
+    >
+      <img
+        alt="a fox holding a box containing a bottle and ice cubes"
+        class="c1"
+        src="https://pub-aea127bc483c40dea7b9339692296909.r2.dev/DALL_E_2024_10_26_12_58_20_A_modern_logo_design_for_Deck_da_Praia_Conveniencia_featuring_a_fox_mascot_representing_cold_beer_delivery_The_fox_should_appear_in_motion_with_sp_fd834176b6.webp"
+      />
+    </a>
+    <a
+      href="/post/hello-fox"
+    >
+      <h2
+        class="c2 c3"
+      >
+        Hello, fox!
+      </h2>
+    </a>
+    <p
+      class=""
+    >
+      Foxes are small-to-medium-sized omnivorous mammals belonging to several genera of the family Canidae.
+    </p>
+  </div>
+</div>
+`;
