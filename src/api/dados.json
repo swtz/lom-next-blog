@@ -151,6 +151,70 @@
               }
             }
           }
+        },
+        {
+          "id": "3",
+          "attributes": {
+            "title": "Hello, bean!",
+            "slug": "hello-bean",
+            "excerpt": "A bean is the seed of any plant in the legume family (Fabaceae) used as a vegetable for human consumption or animal feed.",
+            "content": "<h3>Scroll down to learn more about this amazing vegetable:</h3><p>&lt;p&gt;The <a class=\"mw-redirect\" target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://en.wikipedia.org/wiki/List_of_rice_varieties\" title=\"List of rice varieties\">varieties of rice</a> are typically classified as long-, medium-, and short-grained.<a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://en.wikipedia.org/wiki/Rice_as_food#cite_note-1\"><span class=\"cite-bracket\"><sup class=\"reference\" id=\"cite_ref-1\">[</sup></span><sup class=\"reference\" id=\"cite_ref-1\">1</sup><span class=\"cite-bracket\"><sup class=\"reference\" id=\"cite_ref-1\">]</sup></span></a> The grains of long-grain rice (high in <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://en.wikipedia.org/wiki/Amylose\" title=\"Amylose\">amylose</a>) tend to remain intact after cooking; medium-grain rice (high in <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://en.wikipedia.org/wiki/Amylopectin\" title=\"Amylopectin\">amylopectin</a>) becomes more sticky.&lt;/p&gt;</p><p><img class=\"image-style-align-left image_resized\" style=\"width:40.04%;\" src=\"https://pub-aea127bc483c40dea7b9339692296909.r2.dev/beans_824ff5187b.jpeg\" alt=\"beans.jpeg\" srcset=\"https://pub-aea127bc483c40dea7b9339692296909.r2.dev/thumbnail_beans_824ff5187b.jpeg 156w,https://pub-aea127bc483c40dea7b9339692296909.r2.dev/small_beans_824ff5187b.jpeg 500w,https://pub-aea127bc483c40dea7b9339692296909.r2.dev/medium_beans_824ff5187b.jpeg 750w,https://pub-aea127bc483c40dea7b9339692296909.r2.dev/large_beans_824ff5187b.jpeg 1000w,\" sizes=\"100vw\" width=\"1000px\"></p><p>&lt;p&gt;Medium-grain rice is used for sweet dishes, for <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://en.wikipedia.org/wiki/Risotto\" title=\"Risotto\">risotto</a> in Italy, and many rice dishes, such as <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://en.wikipedia.org/wiki/Arr%C3%B2s_negre\" title=\"Arròs negre\"><i lang=\"ca-valencia\"><span title=\"Valencian-language text\">arròs negre</span></i></a>, in Spain. Some varieties of long-grain rice that are high in <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://en.wikipedia.org/wiki/Amylopectin\" title=\"Amylopectin\">amylopectin</a>, known as Thai Sticky rice, are usually steamed.&lt;/p&gt;</p><p>&lt;p&gt;A stickier short-grain rice is used for <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://en.wikipedia.org/wiki/Sushi\" title=\"Sushi\">sushi</a>;<a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://en.wikipedia.org/wiki/Rice_as_food#cite_note-Kitchen2020-3\"><span class=\"cite-bracket\"><sup class=\"reference\" id=\"cite_ref-Kitchen2020_3-0\">[</sup></span><sup class=\"reference\" id=\"cite_ref-Kitchen2020_3-0\">3</sup><span class=\"cite-bracket\"><sup class=\"reference\" id=\"cite_ref-Kitchen2020_3-0\">]</sup></span></a> the stickiness allows rice to hold its shape when cooked.<a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://en.wikipedia.org/wiki/Rice_as_food#cite_note-Simmons2009-4\"><span class=\"cite-bracket\"><sup class=\"reference\" id=\"cite_ref-Simmons2009_4-0\">[</sup></span><sup class=\"reference\" id=\"cite_ref-Simmons2009_4-0\">4</sup><span class=\"cite-bracket\"><sup class=\"reference\" id=\"cite_ref-Simmons2009_4-0\">]</sup></span></a> Short-grain rice is used extensively in Japan,<a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://en.wikipedia.org/wiki/Rice_as_food#cite_note-5\"><span class=\"cite-bracket\"><sup class=\"reference\" id=\"cite_ref-5\">[</sup></span><sup class=\"reference\" id=\"cite_ref-5\">5</sup><span class=\"cite-bracket\"><sup class=\"reference\" id=\"cite_ref-5\">]</sup></span></a> including to accompany savoury dishes.<a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://en.wikipedia.org/wiki/Rice_as_food#cite_note-AlfordDuguid2003-6\"><span class=\"cite-bracket\"><sup class=\"reference\" id=\"cite_ref-AlfordDuguid2003_6-0\">[</sup></span><sup class=\"reference\" id=\"cite_ref-AlfordDuguid2003_6-0\">6</sup><span class=\"cite-bracket\"><sup class=\"reference\" id=\"cite_ref-AlfordDuguid2003_6-0\">]</sup></span></a> Short-grain rice is often used for <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://en.wikipedia.org/wiki/Rice_pudding\" title=\"Rice pudding\">rice pudding</a>.&lt;/p&gt;</p><p>&lt;p&gt;A stickier short-grain rice is used for <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://en.wikipedia.org/wiki/Sushi\" title=\"Sushi\">sushi</a>;<a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://en.wikipedia.org/wiki/Rice_as_food#cite_note-Kitchen2020-3\"><span class=\"cite-bracket\"><sup class=\"reference\" id=\"cite_ref-Kitchen2020_3-0\">[</sup></span><sup class=\"reference\" id=\"cite_ref-Kitchen2020_3-0\">3</sup><span class=\"cite-bracket\"><sup class=\"reference\" id=\"cite_ref-Kitchen2020_3-0\">]</sup></span></a> the stickiness allows rice to hold its shape when cooked.<a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://en.wikipedia.org/wiki/Rice_as_food#cite_note-Simmons2009-4\"><span class=\"cite-bracket\"><sup class=\"reference\" id=\"cite_ref-Simmons2009_4-0\">[</sup></span><sup class=\"reference\" id=\"cite_ref-Simmons2009_4-0\">4</sup><span class=\"cite-bracket\"><sup class=\"reference\" id=\"cite_ref-Simmons2009_4-0\">]</sup></span></a> Short-grain rice is used extensively in Japan,<a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://en.wikipedia.org/wiki/Rice_as_food#cite_note-5\"><span class=\"cite-bracket\"><sup class=\"reference\" id=\"cite_ref-5\">[</sup></span><sup class=\"reference\" id=\"cite_ref-5\">5</sup><span class=\"cite-bracket\"><sup class=\"reference\" id=\"cite_ref-5\">]</sup></span></a> including to accompany savoury dishes.<a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://en.wikipedia.org/wiki/Rice_as_food#cite_note-AlfordDuguid2003-6\"><span class=\"cite-bracket\"><sup class=\"reference\" id=\"cite_ref-AlfordDuguid2003_6-0\">[</sup></span><sup class=\"reference\" id=\"cite_ref-AlfordDuguid2003_6-0\">6</sup><span class=\"cite-bracket\"><sup class=\"reference\" id=\"cite_ref-AlfordDuguid2003_6-0\">]</sup></span></a> Short-grain rice is often used for <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://en.wikipedia.org/wiki/Rice_pudding\" title=\"Rice pudding\">rice pudding</a>.&lt;/p&gt;</p><p>&lt;p&gt;Beans in an early cultivated form were grown in Thailand from the early seventh millennium BCE, predating ceramics.<a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://en.wikipedia.org/wiki/Bean#cite_note-6\"><span class=\"cite-bracket\"><sup class=\"reference\" id=\"cite_ref-6\">[</sup></span><sup class=\"reference\" id=\"cite_ref-6\">6</sup><span class=\"cite-bracket\"><sup class=\"reference\" id=\"cite_ref-6\">]</sup></span></a> Beans were deposited with the dead in <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://en.wikipedia.org/wiki/Ancient_Egypt\" title=\"Ancient Egypt\">ancient Egypt</a>. Not until the second millennium BCE did cultivated, large-seeded broad beans appear in the <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://en.wikipedia.org/wiki/Aegean_civilization\" title=\"Aegean civilization\">Aegean region</a>, <a class=\"mw-redirect\" target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://en.wikipedia.org/wiki/Iberia\" title=\"Iberia\">Iberia</a>, and transalpine Europe.<a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://en.wikipedia.org/wiki/Bean#cite_note-7\"><span class=\"cite-bracket\"><sup class=\"reference\" id=\"cite_ref-7\">[</sup></span><sup class=\"reference\" id=\"cite_ref-7\">7</sup><span class=\"cite-bracket\"><sup class=\"reference\" id=\"cite_ref-7\">]</sup></span></a> In the <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://en.wikipedia.org/wiki/Iliad\" title=\"Iliad\"><i>Iliad</i></a> (8th century BCE), there is a passing mention of beans and <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://en.wikipedia.org/wiki/Chickpea\" title=\"Chickpea\">chickpeas</a> cast on the threshing floor.<a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://en.wikipedia.org/wiki/Bean#cite_note-8\"><span class=\"cite-bracket\"><sup class=\"reference\" id=\"cite_ref-8\">[</sup></span><sup class=\"reference\" id=\"cite_ref-8\">8</sup><span class=\"cite-bracket\"><sup class=\"reference\" id=\"cite_ref-8\">]</sup></span></a><span class=\"cite-bracket\"><sup class=\"reference\" id=\"cite_ref-8\">&lt;/p&gt;</sup></span></p>",
+            "allowComments": false,
+            "tags": {
+              "data": [
+                {
+                  "id": "5",
+                  "attributes": {
+                    "displayName": "health",
+                    "slug": "health"
+                  }
+                },
+                {
+                  "id": "2",
+                  "attributes": {
+                    "displayName": "useState",
+                    "slug": "use-state"
+                  }
+                }
+              ]
+            },
+            "author": {
+              "data": {
+                "id": "2",
+                "attributes": {
+                  "displayName": "leonarTHINKer",
+                  "slug": "leonar-thin-ker"
+                }
+              }
+            },
+            "categories": {
+              "data": [
+                {
+                  "id": "2",
+                  "attributes": {
+                    "displayName": "production",
+                    "slug": "production"
+                  }
+                },
+                {
+                  "id": "3",
+                  "attributes": {
+                    "displayName": "cooking",
+                    "slug": "cooking"
+                  }
+                }
+              ]
+            },
+            "cover": {
+              "data": {
+                "id": "14",
+                "attributes": {
+                  "url": "https://pub-aea127bc483c40dea7b9339692296909.r2.dev/how_to_cook_dried_beans_6fb0921283.jpg",
+                  "alternativeText": null
+                }
+              }
+            }
+          }
         }
       ]
     }

@@ -8,11 +8,14 @@ export default {
   args: {
     posts,
   },
+  parameters: {
+    layout: 'fullscreen',
+  },
 } as Meta<PostGridProps>;
 
 export const Template: StoryFn<PostGridProps> = (args) => {
   return (
-    <div>
+    <div style={{ maxWidth: '120rem' }}>
       <PostGrid {...args} />
     </div>
   );
