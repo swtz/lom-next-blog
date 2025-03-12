@@ -6,4 +6,4 @@
 // Seção 15: Projeto 2: Blog - Front-end com Next.js (e React)
 
 // Aula:
-// 262. Componente PostCard - Parte 1
+// 263. Componente PostCard - Parte 2 (Testes)

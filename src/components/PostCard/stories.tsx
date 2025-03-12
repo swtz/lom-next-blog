@@ -1,13 +1,15 @@
 import { Meta, StoryFn } from '@storybook/react/types-6-0';
 import { PostCard, PostCardProps } from '.';
-import { postId, postProps } from './mock';
+import { postProps } from './mock';
 
 export default {
   title: 'PostCard',
   component: PostCard,
   args: {
-    id: postId,
-    ...postProps,
+    title: postProps.title,
+    excerpt: postProps.excerpt,
+    cover: postProps.cover,
+    slug: postProps.slug,
   },
 } as Meta<PostCardProps>;
 
