@@ -1,3 +1,4 @@
+/* eslint-disable */
 // Curso:
 // Aprenda ReactJS, NextJS, Styled-Components, Testes com Jest , Storybook, Strapi, HTML e CSS com TypeScript e JavaScript.
 
@@ -5,27 +6,4 @@
 // Seção 15: Projeto 2: Blog - Front-end com Next.js (e React)
 
 // Aula:
-// 261. Componente Menu - Parte 4
-/* eslint-disable */
-
-// Testing library tip:
-// Quando há necessidade de informar para um biblioteca de testes que um
-// elemento está oculto na tela, é possível usar o atributo 'aria-hidden'.
-// Exemplo:
-<Styled.Wrapper menuVisible={menuVisible} aria-hidden={!menuVisible}>
-  {/* O componente acima retorna uma 'nav' */}
-  <></>
-</Styled.Wrapper>;
-
-// No arquivo de testes:
-expect(screen.queryByRole('navigation')).not.toBeInTheDocument();
-
-// Assim, ele identifica que o componente 'Wrapper' está oculto quando o valor
-// da variável 'menuVisible' é inverso ao atual.
-
-
-// CSS selector tip:
-// Para filtrar a seleção de um conjunto de elementos:
-HTMLElement.prototype.querySelectorAll('a:not([href="/"])');
-// Lê-se: "selecione todos os elementos 'a' que não possuem o atributo
-// 'href' com o valor '/'";
+// 262. Componente PostCard - Parte 1
