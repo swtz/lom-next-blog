@@ -14,6 +14,12 @@ describe('<PostGrid />', () => {
     );
   });
 
+  it('should render a text if not post', () => {
+    renderTheme(<PostGrid posts={{ data: null }} />);
+
+    expect(screen.getByText('Nenhum post encontrado.')).toBeInTheDocument();
+  });
+
   it('should match snapshot', () => {
     const { container } = renderTheme(<PostGrid {...props} />);
 

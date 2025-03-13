@@ -6,4 +6,4 @@
 // Seção 15: Projeto 2: Blog - Front-end com Next.js (e React)
 
 // Aula:
-// 264. Exercício - Componente PostGrid
+// 265. Solução - Componente PostGrid

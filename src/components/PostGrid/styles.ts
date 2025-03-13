@@ -9,6 +9,14 @@ export const Wrapper = styled.div`
   `}
 `;
 
+export const NotFound = styled.p`
+  ${({ theme }) => css`
+    text-align: center;
+    font-size: ${theme.font.sizes.xsmall};
+    padding: ${theme.spacings.large};
+  `}
+`;
+
 export const Grid = styled.div`
   ${({ theme }) => css`
     display: grid;
