@@ -2,7 +2,11 @@ import styled, { css } from 'styled-components';
 import { Wrapper as PostCardStyles } from '../PostCard/styles';
 
 export const Wrapper = styled.div`
-  ${() => css``}
+  ${() => css`
+    width: 100%;
+    max-width: 120rem;
+    margin: 0 auto;
+  `}
 `;
 
 export const Grid = styled.div`
@@ -10,7 +14,7 @@ export const Grid = styled.div`
     display: grid;
     justify-content: center;
     align-items: center;
-    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
     gap: 3rem;
     padding: 1rem;
 

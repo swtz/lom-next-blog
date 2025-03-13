@@ -15,7 +15,7 @@ export default {
 
 export const Template: StoryFn<PostGridProps> = (args) => {
   return (
-    <div style={{ maxWidth: '120rem' }}>
+    <div>
       <PostGrid {...args} />
     </div>
   );

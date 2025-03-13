@@ -6,13 +6,17 @@ import { posts } from './mock';
 const props: PostGridProps = { posts };
 
 describe('<PostGrid />', () => {
-  it('should render', () => {
+  it('should render the correct number of PostCard components', () => {
     renderTheme(<PostGrid {...props} />);
 
-    expect(
-      screen.getByRole('heading', {
-        name: props.posts.data[0].attributes.title,
-      }),
-    ).toBeInTheDocument();
+    expect(screen.getAllByRole('heading')).toHaveLength(
+      props.posts.data.length,
+    );
+  });
+
+  it('should match snapshot', () => {
+    const { container } = renderTheme(<PostGrid {...props} />);
+
+    expect(container).toMatchSnapshot();
   });
 });
