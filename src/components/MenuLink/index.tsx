@@ -5,7 +5,6 @@ export type MenuLinkProps = {
   children: React.ReactNode;
   link: string;
   newTab?: boolean;
-  id?: number;
 };
 
 export const MenuLink = ({ children, link, newTab = false }: MenuLinkProps) => {
