@@ -35,7 +35,7 @@
               "text": "page2"
             }
           ],
-          "text": "<p>Testando o CKEditor... and....</p><pre><code class=\"language-plaintext\">npm i -D typecript @types/react @types/node @types/next</code></pre>"
+          "text": "<p>Testando o CKEditor... and....</p>"
         }
       }
     },

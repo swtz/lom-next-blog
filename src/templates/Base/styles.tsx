@@ -4,11 +4,23 @@ export const Wrapper = styled.div`
   ${() => css``}
 `;
 export const HeaderContainer = styled.div`
-  ${() => css``}
+  ${({ theme }) => css`
+    margin-top: ${theme.spacings.xhuge};
+  `}
 `;
 export const ContentContainer = styled.div`
-  ${() => css``}
+  ${({ theme }) => css`
+    max-width: 120rem;
+    width: 100%;
+    margin: 0 auto;
+    margin-bottom: ${theme.spacings.xhuge};
+  `}
 `;
 export const FooterContainer = styled.div`
-  ${() => css``}
+  ${({ theme }) => css`
+    max-width: 120rem;
+    width: 100%;
+    margin: 0 auto;
+    margin-bottom: ${theme.spacings.large};
+  `}
 `;

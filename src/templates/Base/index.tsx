@@ -1,17 +1,16 @@
 import { Footer } from '../../components/Footer';
+import { GoTop } from '../../components/GoTop';
 import { Header } from '../../components/Header';
 import { Menu } from '../../components/Menu';
-import { PostGrid } from '../../components/PostGrid';
-import { Posts } from '../../shared-typed/posts';
 import { SettingStrapi } from '../../shared-typed/setting-strapi';
 import * as Styled from './styles';
 
 export type BaseProps = {
   setting: SettingStrapi;
-  posts: Posts;
+  children: React.ReactNode;
 };
 
-export const Base = ({ setting, posts }: BaseProps) => {
+export const Base = ({ setting, children }: BaseProps) => {
   return (
     <Styled.Wrapper>
       <Menu
@@ -28,13 +27,13 @@ export const Base = ({ setting, posts }: BaseProps) => {
         />
       </Styled.HeaderContainer>
 
-      <Styled.ContentContainer>
-        <PostGrid posts={posts} />
-      </Styled.ContentContainer>
+      <Styled.ContentContainer>{children}</Styled.ContentContainer>
 
       <Styled.FooterContainer>
         <Footer footerHtml={setting.data.attributes.text} />
       </Styled.FooterContainer>
+
+      <GoTop />
     </Styled.Wrapper>
   );
 };
