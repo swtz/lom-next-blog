@@ -6,4 +6,4 @@
 // Seção 15: Projeto 2: Blog - Front-end com Next.js (e React)
 
 // Aula:
-// 267. Correção para posts sem tags
+// 268. Correção para posts sem autor ou categorias

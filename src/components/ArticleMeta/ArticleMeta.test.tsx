@@ -41,4 +41,13 @@ describe('<ArticleMeta />', () => {
 
     expect(container.firstChild).toMatchSnapshot();
   });
+
+  it('should match snapshot with no author and categories', () => {
+    mock.author.data = null;
+    mock.categories.data = null;
+
+    const { container } = renderTheme(<ArticleMeta {...mock} />);
+
+    expect(container).toMatchSnapshot();
+  });
 });
