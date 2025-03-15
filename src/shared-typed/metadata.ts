@@ -4,10 +4,10 @@ export type Metadata = {
 
 export type Data = {
   id: string;
-  attributes: Atributes;
+  attributes: Attributes;
 };
 
-export type Atributes = {
+export type Attributes = {
   displayName: string;
   slug: string;
 };

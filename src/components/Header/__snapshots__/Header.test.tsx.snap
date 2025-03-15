@@ -50,7 +50,6 @@ exports[`<Header /> should match snapshot 1`] = `
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  padding: 6.4rem;
   width: 100%;
   max-width: 96rem;
   color: #333333;

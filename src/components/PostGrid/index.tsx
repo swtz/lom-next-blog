@@ -22,6 +22,7 @@ export const PostGrid = ({ posts }: PostGridProps) => {
           {posts.data.map((post) => (
             <PostCard
               key={post.id}
+              id={post.id}
               title={post.attributes.title}
               excerpt={post.attributes.excerpt}
               cover={post.attributes.cover}
