@@ -1,4 +1,7 @@
+import { Author } from './author';
+import { Category } from './category';
 import { Cover } from './cover';
+import { Tag } from './tag';
 
 export type PostsData = {
   data: Data[];
@@ -6,12 +9,18 @@ export type PostsData = {
 
 export type Data = {
   id: string;
-  attributes: Atributes;
+  attributes: Attributes;
 };
 
-export type Atributes = {
+export type Attributes = {
   title: string;
   excerpt: string;
   cover: Cover;
   slug: string;
+  tags: Tag;
+  author: Author;
+  categories: Category;
+  content: string;
+  allowComments?: boolean;
+  createdAt: string;
 };

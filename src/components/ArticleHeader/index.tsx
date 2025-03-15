@@ -4,7 +4,6 @@ import { Heading } from '../Heading';
 import * as Styled from './styles';
 
 export type ArticleHeaderProps = {
-  id: string;
   title: string;
   excerpt: string;
   cover: Cover;

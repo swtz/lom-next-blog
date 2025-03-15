@@ -8,7 +8,6 @@ export type PostProps = ArticleHeaderProps & {
 };
 
 export const Post = ({
-  id,
   title,
   excerpt,
   cover,
@@ -21,7 +20,6 @@ export const Post = ({
     <Styled.Wrapper>
       <PostContainer size="max">
         <ArticleHeader
-          id={id}
           title={title}
           excerpt={excerpt}
           cover={cover}

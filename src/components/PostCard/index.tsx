@@ -4,7 +4,7 @@ import { Heading } from '../Heading';
 import { Cover } from '../../shared-typed/cover';
 
 export type PostCardProps = {
-  id?: string;
+  id: string;
   title: string;
   excerpt: string;
   cover: Cover;
