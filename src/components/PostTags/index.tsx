@@ -7,6 +7,10 @@ export type PostTagsProps = {
 };
 
 export const PostTags = ({ tags }: PostTagsProps) => {
+  if (!tags.data) {
+    return null;
+  }
+
   return (
     <Styled.Wrapper>
       tags:

@@ -6,4 +6,4 @@
 // Seção 15: Projeto 2: Blog - Front-end com Next.js (e React)
 
 // Aula:
-// 266. Componente PostTags
+// 267. Correção para posts sem tags
