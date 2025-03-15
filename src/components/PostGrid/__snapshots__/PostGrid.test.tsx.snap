@@ -41,11 +41,11 @@ exports[`<PostGrid /> should match snapshot 1`] = `
 
 .c0 {
   width: 100%;
-  max-width: 120rem;
-  margin: 0 auto;
 }
 
 .c1 {
+  max-width: 120rem;
+  margin: 0 auto;
   display: grid;
   -webkit-box-pack: center;
   -webkit-justify-content: center;
@@ -55,9 +55,9 @@ exports[`<PostGrid /> should match snapshot 1`] = `
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  grid-template-columns: repeat(auto-fill,minmax(300px,1fr));
-  gap: 3rem;
-  padding: 1rem;
+  grid-template-columns: repeat(auto-fill,minmax(30rem,1fr));
+  gap: 3.2rem;
+  padding: calc(.8rem + 0.2rem);
 }
 
 .c1 .c2 {
