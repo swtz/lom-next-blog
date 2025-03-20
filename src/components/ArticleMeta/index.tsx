@@ -1,5 +1,6 @@
 import { Author } from '../../shared-typed/author';
 import { Category } from '../../shared-typed/category';
+import { Tag } from '../../shared-typed/tag';
 import { formatDate } from '../../utils/format-date';
 import * as Styled from './styles';
 
@@ -7,6 +8,7 @@ export type ArticleMetaProps = {
   createdAt: string;
   author?: Author;
   categories?: Category;
+  tags?: Tag;
 };
 
 export const ArticleMeta = ({

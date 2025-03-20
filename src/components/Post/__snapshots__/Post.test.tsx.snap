@@ -216,18 +216,6 @@ exports[`<Post /> should match snapshot 1`] = `
   }
 }
 
-@media (max-width:550px) {
-  .c0 {
-    padding: 0 1.6rem;
-  }
-}
-
-@media (max-width:550px) {
-  .c7 {
-    padding: 0 1.6rem;
-  }
-}
-
 <article
   class=""
 >
