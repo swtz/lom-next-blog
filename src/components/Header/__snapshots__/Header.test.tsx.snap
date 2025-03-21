@@ -50,6 +50,7 @@ exports[`<Header /> should match snapshot 1`] = `
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
+  padding: 0 0 3.2rem 0;
   width: 100%;
   max-width: 96rem;
   color: #333333;
@@ -69,7 +70,8 @@ exports[`<Header /> should match snapshot 1`] = `
   -webkit-flex-flow: column wrap;
   -ms-flex-flow: column wrap;
   flex-flow: column wrap;
-  margin-left: 3.2rem;
+  margin-left: 2.4rem;
+  margin-right: 2.4rem;
   max-width: 48rem;
 }
 
@@ -78,6 +80,7 @@ exports[`<Header /> should match snapshot 1`] = `
     -webkit-flex-flow: column wrap;
     -ms-flex-flow: column wrap;
     flex-flow: column wrap;
+    text-align: center;
   }
 
   .c0 > div .c1 {

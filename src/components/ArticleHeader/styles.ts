@@ -4,6 +4,7 @@ import { Title as HeadingStyles } from '../Heading/styles';
 export const Wrapper = styled.header`
   ${({ theme }) => css`
     padding-bottom: ${theme.spacings.xlarge};
+    padding-top: ${theme.spacings.xlarge};
     margin-bottom: ${theme.spacings.xlarge};
     border-bottom: 0.1rem solid ${theme.colors.mediumGray};
 

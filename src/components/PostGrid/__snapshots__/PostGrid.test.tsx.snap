@@ -41,6 +41,7 @@ exports[`<PostGrid /> should match snapshot 1`] = `
 
 .c0 {
   width: 100%;
+  padding-left: 1.6rem;
 }
 
 .c1 {
@@ -71,6 +72,12 @@ exports[`<PostGrid /> should match snapshot 1`] = `
 
 .c1 .c2:hover {
   border-color: #333333;
+}
+
+@media (max-width:768px) {
+  .c0 {
+    padding-left: 0;
+  }
 }
 
 <div>

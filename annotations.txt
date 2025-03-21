@@ -6,4 +6,7 @@
 // Seção 15: Projeto 2: Blog - Front-end com Next.js (e React)
 
 // Aula:
-// 270. Template PostTemplate
+// 272. Correções na Header e Links do next
+// Google Drive (por conta da atualização do curso):
+// https://drive.google.com/drive/folders/19LO4OWFjMMyexnHXEW7G8NL7t4QBK-pR
+// aula215.mp4

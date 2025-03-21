@@ -37,6 +37,7 @@ exports[`<ArticleHeader /> should match snapshot 1`] = `
 
 .c0 {
   padding-bottom: 4.0rem;
+  padding-top: 4.0rem;
   margin-bottom: 4.0rem;
   border-bottom: 0.1rem solid #DDDDDD;
 }

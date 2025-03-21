@@ -2,8 +2,13 @@ import styled, { css } from 'styled-components';
 import { Wrapper as PostCardStyles } from '../PostCard/styles';
 
 export const Wrapper = styled.div`
-  ${() => css`
+  ${({ theme }) => css`
     width: 100%;
+    padding-left: ${theme.spacings.xsmall};
+
+    @media ${theme.media.lteMedium} {
+      padding-left: 0;
+    }
   `}
 `;
 

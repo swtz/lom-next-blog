@@ -6,7 +6,7 @@ export const Wrapper = styled.header`
     display: flex;
     justify-content: center;
     align-items: center;
-    /* padding: ${theme.spacings.xhuge}; */
+    padding: 0 0 ${theme.spacings.large} 0;
     width: 100%;
     max-width: ${theme.sizes.max};
     color: ${theme.colors.darkText};
@@ -19,6 +19,7 @@ export const Wrapper = styled.header`
 
     @media ${theme.media.lteXSmall} {
       flex-flow: column wrap;
+      text-align: center;
 
       > div {
         ${HeadingStyles} {
@@ -34,7 +35,8 @@ export const Content = styled.div`
   ${({ theme }) => css`
     display: flex;
     flex-flow: column wrap;
-    margin-left: ${theme.spacings.large};
+    margin-left: ${theme.spacings.medium};
+    margin-right: ${theme.spacings.medium};
     max-width: 48rem;
   `}
 `;
