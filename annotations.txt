@@ -6,11 +6,7 @@
 // Seção 15: Projeto 2: Blog - Front-end com Next.js (e React)
 
 // Aula:
-// 273. Buscando dados do GraphQL com graphql-request
+// 274. Página inicial com getStaticProps (SSG do Next)
 // Google Drive (por conta da atualização do curso):
 // https://drive.google.com/drive/folders/19LO4OWFjMMyexnHXEW7G8NL7t4QBK-pR
-// aula216.mp4
-
-// Instalação das dependências:
-// [no terminal]:
-// npm i graphql@15.5.0 graphql-request@3.4.0
+// aula217.mp4
