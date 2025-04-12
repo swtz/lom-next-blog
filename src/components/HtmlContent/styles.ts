@@ -79,6 +79,11 @@ export const Container = styled.div`
     ol {
       margin: ${theme.spacings.medium} ${theme.spacings.xlarge};
     }
+    .raw-html-embed {
+      width: 100%;
+      overflow: hidden;
+      overflow-x: auto;
+    }
 
     .table {
       width: 100%;
