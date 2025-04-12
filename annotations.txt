@@ -6,7 +6,7 @@
 // Seção 15: Projeto 2: Blog - Front-end com Next.js (e React)
 
 // Aula:
-// 274. Página inicial com getStaticProps (SSG do Next)
+// 276. Página de post com getStaticProps e revalidate (ISR do Next)
 // Google Drive (por conta da atualização do curso):
 // https://drive.google.com/drive/folders/19LO4OWFjMMyexnHXEW7G8NL7t4QBK-pR
-// aula217.mp4
+// aula218.mp4
