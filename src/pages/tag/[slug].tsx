@@ -37,12 +37,15 @@ export const getStaticPaths: GetStaticPaths = async () => {
 
   try {
     data = await loadPosts();
-    paths = data.posts.data.map(
-      (post) =>
-        post.attributes.tags.data.map((tag) => ({
-          params: { slug: tag.attributes.slug },
-        }))[0],
+    const tags = [];
+    const postsTagsArray = data.posts.data.map((post) =>
+      post.attributes.tags.data.map((tag) => tag.attributes.slug),
     );
+    postsTagsArray.forEach((postTags) => {
+      postTags.forEach((tag) => tags.push(tag));
+    });
+    const uniqueTags = Array.from(new Set(tags)); // dica do Copilot
+    paths = uniqueTags.map((tag) => ({ params: { slug: tag } }));
   } catch (e) {
     data = null;
     console.log('Error: getStaticProps from Index component', e.message);
