@@ -32,10 +32,30 @@ export default function CategoryPage({ posts, setting }: PostsTemplateProps) {
 }
 
 export const getStaticPaths: GetStaticPaths = async () => {
+  let data: PostsTemplateProps | null = null;
+  let paths = [];
+
+  try {
+    data = await loadPosts();
+    paths = data.posts.data.map(
+      (post) =>
+        post.attributes.categories.data.map((category) => ({
+          params: { slug: category.attributes.slug },
+        }))[0],
+    );
+  } catch (e) {
+    data = null;
+    console.log('Error: getStaticProps from Index component', e.message);
+  }
+
+  if (!data || !data.posts || !data.posts.data.length) {
+    paths = [];
+  }
+
   return {
-    paths: [],
+    paths,
     fallback: true,
-  }; // 'paths' vazio e 'fallback' true quer dizer que o Next.js vai gerar as páginas no momento da requisição
+  };
 };
 
 export const getStaticProps: GetStaticProps<PostsTemplateProps> = async (
@@ -61,6 +81,5 @@ export const getStaticProps: GetStaticProps<PostsTemplateProps> = async (
       posts: data.posts,
       setting: data.setting,
     },
-    revalidate: 120,
   };
 };

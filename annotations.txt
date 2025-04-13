@@ -10,3 +10,8 @@
 // Google Drive (por conta da atualização do curso):
 // https://drive.google.com/drive/folders/19LO4OWFjMMyexnHXEW7G8NL7t4QBK-pR
 // aula219.mp4
+
+// 13/04/25 10:47
+// Vou fazer deploy do site usando a tecnologia SSG, pois o curso
+// terá uma grande atualização e, a partir dessa data, vou "recomeçar"
+// o curso.

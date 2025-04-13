@@ -39,6 +39,5 @@ export const getStaticProps: GetStaticProps<PostsTemplateProps> = async () => {
       posts: data.posts,
       setting: data.setting,
     },
-    revalidate: 24 * 60 * 60,
   };
 };
