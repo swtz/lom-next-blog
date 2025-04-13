@@ -6,6 +6,6 @@ const buildEslintCommand = (filenames) =>
     .join(' --file ')}`;
 
 module.exports = {
-  // '*.{js,jsx,ts,tsx}': [buildEslintCommand],
+  '*.{js,jsx,ts,tsx}': [buildEslintCommand],
   '*.{test.js,test.jsx,test.ts,test.tsx}': ['npm test -- --bail -o'],
 };
